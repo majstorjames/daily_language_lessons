@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>{{subject}}</title>
+  <style>
+    body {
+      background: #f6f6f6;
+      font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 640px;
+      margin: 24px auto;
+      background: #ffffff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, .06);
+    }
+
+    .header {
+      background: #0ea5e9;
+      color: #fff;
+      padding: 16px 20px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    .content {
+      padding: 20px;
+      color: #111827;
+    }
+
+    h1 {
+      font-size: 18px;
+      margin: 0 0 12px;
+    }
+
+    h2 {
+      font-size: 16px;
+      margin: 20px 0 8px;
+      color: #0f172a;
+    }
+
+    .lesson {
+      background: #f0f9ff;
+      border: 1px solid #bae6fd;
+      padding: 12px;
+      border-radius: 8px;
+    }
+
+    ol {
+      margin: 8px 0 0 20px;
+    }
+
+    .muted {
+      color: #6b7280;
+      font-size: 12px;
+    }
+
+    .footer {
+      padding: 14px 20px;
+      color: #6b7280;
+      font-size: 12px;
+    }
+
+    a.button {
+      display: inline-block;
+      background: #0ea5e9;
+      color: #fff !important;
+      text-decoration: none;
+      padding: 10px 14px;
+      border-radius: 8px;
+      font-weight: 600;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: #eef2ff;
+      color: #3730a3;
+      font-size: 12px;
+      margin-right: 6px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">{{header_title}}</div>
+    <div class="content">
+      <div class="lesson">
+        <div class="tag">{{theme_label}}</div>
+        <div class="tag">{{theme}}</div>
+        <h2>{{mini_lesson_label}}</h2>
+        <div>{{{mini_lesson_html}}}</div>
+      </div>
+
+      <h2>{{translate_into_label}}</h2>
+      <ol>
+        {% for item in items %}
+        <li>{{item.en}}</li>
+        {% endfor %}
+      </ol>
+
+      <p class="muted">{{reply_hint}}</p>
+    </div>
+    <div class="footer">
+      {{footer_text}}
+    </div>
+  </div>
+</body>
+
+</html>

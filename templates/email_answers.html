@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>{{subject}}</title>
+    <style>
+        body {
+            background: #f6f6f6;
+            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 640px;
+            margin: 24px auto;
+            background: #ffffff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, .06);
+        }
+
+        /* keep the look & feel aligned with the quiz template */
+        .header {
+            background: #10b981;
+            /* green to distinguish answers; use #0ea5e9 to match exactly */
+            color: #fff;
+            padding: 16px 20px;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .content {
+            padding: 20px;
+            color: #111827;
+        }
+
+        h1 {
+            font-size: 18px;
+            margin: 0 0 12px;
+        }
+
+        h2 {
+            font-size: 16px;
+            margin: 20px 0 8px;
+            color: #0f172a;
+        }
+
+        .lesson {
+            background: #ecfdf5;
+            /* subtle green tint for answers */
+            border: 1px solid #a7f3d0;
+            padding: 12px;
+            border-radius: 8px;
+        }
+
+        .muted {
+            color: #6b7280;
+            font-size: 12px;
+        }
+
+        .footer {
+            padding: 14px 20px;
+            color: #6b7280;
+            font-size: 12px;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 999px;
+            background: #eef2ff;
+            color: #3730a3;
+            font-size: 12px;
+            margin-right: 6px;
+        }
+
+        .item {
+            border-top: 1px solid #e5e7eb;
+            padding: 12px 0;
+        }
+
+        code {
+            background: #f3f4f6;
+            padding: 1px 6px;
+            border-radius: 6px;
+        }
+
+        /* status colors, driven by {{row.status_class}} */
+        .ok {
+            color: #059669;
+        }
+
+        /* correct */
+        .almost {
+            color: #d97706;
+        }
+
+        /* almost */
+        .needs {
+            color: #dc2626;
+        }
+
+        /* needs work */
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">{{header_title}}</div>
+        <div class="content">
+            <!-- optional summary / callout, mirrors the “lesson” box style from quiz -->
+            <div class="lesson">
+                <div class="tag">{{summary_label}}</div>
+                <div class="tag">{{summary_tag}}</div>
+                <h2>{{feedback_label}}</h2>
+                <p class="muted">{{growth_hint}}</p>
+            </div>
+
+            <!-- Results list -->
+            <h2>{{results_label}}</h2>
+            {% for row in rows %}
+            <div class="item">
+                <div><strong>{{row.index}}.</strong> <em>{{row.en}}</em></div>
+                <div>{{your_answer_label}}: <code>{{row.user}}</code></div>
+                <div>{{correct_label}}: <code>{{row.gold}}</code></div>
+
+                <div class="{{row.status_class}}">
+                    <strong>{{row.status_label}}</strong> — {{row.expl}}
+                </div>
+            </div>
+            {% endfor %}
+
+            <p class="muted">{{next_steps_hint}}</p>
+        </div>
+        <div class="footer">
+            {{footer_text}}
+        </div>
+    </div>
+</body>
+
+</html>
