@@ -12,6 +12,8 @@ from core_quiz import (
     find_latest_reply,
     render_quiz_email_core,
     render_answers_email_core,
+    has_processed_reply,
+    record_processed_reply
 )
 
 # ---------------- Message-ID -----------------
@@ -92,6 +94,8 @@ def main():
             language=lang_code,
         )
 
+
+
     else:
         # ANSWERS
         quiz_msg_id = None
@@ -119,6 +123,13 @@ def main():
                 rows=rows,
             )
 
+            if reply_mid and reply_body:
+                # Dedupe: only grade/send once per unique (quiz, reply) pair
+                dedupe_key = f"{quiz_msg_id}|{reply_mid}" if quiz_msg_id else f"|{reply_mid}"
+                if has_processed_reply(lang_code, dedupe_key):
+                    print(f"Reply already graded; skipping. key={dedupe_key}")
+                    return
+
             refs = f"{quiz_msg_id} {reply_mid}".strip() if quiz_msg_id else reply_mid
             send_email(
                 subject,
@@ -129,6 +140,7 @@ def main():
                 sender_default=f"{target_lang_name} para mi Amor ❤️",
                 language=lang_code,
             )
+            record_processed_reply(lang_code, dedupe_key)
         else:
             print("No reply found yet.")
 

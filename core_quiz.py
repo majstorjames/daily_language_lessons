@@ -413,6 +413,7 @@ def ui_labels(lang: str) -> Dict[str, str]:
         "answers_footer": "Sent automatically by your quiz bot. 🎯",
     }
 
+
 def _status_label_and_class(status: str, lang: str) -> Tuple[str, str]:
     s = (status or "").lower()
     if s.startswith("correct"):
@@ -421,6 +422,39 @@ def _status_label_and_class(status: str, lang: str) -> Tuple[str, str]:
         return ("Quase lá" if lang=="pt" else "Casi" if lang=="es" else "Almost", "almost")
     return ("Precisa de revisão" if lang=="pt" else "Necesita revisión" if lang=="es" else "Needs work", "needs")
 
+
+# ---------------- Processed-replies ledger (CI-friendly) ----------------
+def _processed_path(lang_code: str) -> str:
+    os.makedirs("data", exist_ok=True)
+    return os.path.join("data", f"{lang_code}_processed_replies.json")
+
+def _load_processed(lang_code: str) -> Dict:
+    p = _processed_path(lang_code)
+    if os.path.exists(p):
+        try:
+            return json.load(open(p, "r", encoding="utf-8"))
+        except Exception:
+            pass
+    return {"keys": []}
+
+def _save_processed(lang_code: str, data: Dict):
+    json.dump(data, open(_processed_path(lang_code), "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+
+def has_processed_reply(lang_code: str, key: str) -> bool:
+    """Return True if this quiz|reply pair was already graded & sent."""
+    data = _load_processed(lang_code)
+    return key in data.get("keys", [])
+
+def record_processed_reply(lang_code: str, key: str, max_keep: int = 500):
+    """Remember we graded/sent this quiz|reply, keeping the file small."""
+    data = _load_processed(lang_code)
+    if key not in data["keys"]:
+        data["keys"].append(key)
+        if len(data["keys"]) > max_keep:
+            data["keys"] = data["keys"][-max_keep:]
+        _save_processed(lang_code, data)
+    _debug(f"Recorded processed reply key={key!r}")
+    
 # ---------------- Adaptive generation & grading ----------------
 def compute_theme_and_lesson(lang_code: str, target_lang_name: str) -> Tuple[str, str]:
     """
