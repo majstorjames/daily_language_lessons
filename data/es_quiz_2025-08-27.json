@@ -1,0 +1,106 @@
+{
+  "theme": "Greetings & Introductions",
+  "lesson_html": "<ul>\n    <li><strong>Greetings:</strong> Start with a friendly \"Hello!\" or \"Hi!\" to make a good first impression.</li>\n    <li><strong>Ask Questions:</strong> Follow your greeting with questions like \"How are you?\" to show interest.</li>\n    <li><strong>Introduce Yourself:</strong> Say your name clearly, for example, \"My name is John.\" </li>\n    <li><strong>Respond:</strong> When someone introduces themselves, reply with \"Nice to meet you, [Name]!\"</li>\n    <li><strong>Body Language:</strong> Smile and make eye contact to create a welcoming atmosphere.</li>\n</ul>",
+  "items": [
+    {
+      "en": "Hello, how are you?",
+      "target": "Hola, ¿cómo estás?",
+      "topics": [
+        "greetings",
+        "introductions",
+        "basic"
+      ],
+      "explanation_en": "This is a common way to greet someone and ask about their well-being."
+    },
+    {
+      "en": "My name is John.",
+      "target": "Me llamo John.",
+      "topics": [
+        "introductions",
+        "names",
+        "basic"
+      ],
+      "explanation_en": "This sentence is used to introduce oneself."
+    },
+    {
+      "en": "Nice to meet you.",
+      "target": "Mucho gusto.",
+      "topics": [
+        "greetings",
+        "introductions",
+        "basic"
+      ],
+      "explanation_en": "This phrase is used when meeting someone for the first time."
+    },
+    {
+      "en": "What is your name?",
+      "target": "¿Cuál es tu nombre?",
+      "topics": [
+        "introductions",
+        "questions",
+        "basic"
+      ],
+      "explanation_en": "This question is used to ask someone for their name."
+    },
+    {
+      "en": "How have you been?",
+      "target": "¿Cómo has estado?",
+      "topics": [
+        "greetings",
+        "introductions",
+        "basic"
+      ],
+      "explanation_en": "This is a way to ask someone about their recent well-being."
+    },
+    {
+      "en": "Where are you from?",
+      "target": "¿De dónde eres?",
+      "topics": [
+        "introductions",
+        "questions",
+        "basic"
+      ],
+      "explanation_en": "This question is used to inquire about someone's origin."
+    },
+    {
+      "en": "I am pleased to meet you.",
+      "target": "Estoy encantado de conocerte.",
+      "topics": [
+        "greetings",
+        "introductions",
+        "basic"
+      ],
+      "explanation_en": "This phrase expresses pleasure in meeting someone."
+    },
+    {
+      "en": "See you later!",
+      "target": "¡Hasta luego!",
+      "topics": [
+        "greetings",
+        "farewells",
+        "basic"
+      ],
+      "explanation_en": "This is a casual way to say goodbye."
+    },
+    {
+      "en": "Good morning!",
+      "target": "¡Buenos días!",
+      "topics": [
+        "greetings",
+        "basic",
+        "time"
+      ],
+      "explanation_en": "This is a common greeting used in the morning."
+    },
+    {
+      "en": "Goodbye, take care!",
+      "target": "¡Adiós, cuídate!",
+      "topics": [
+        "farewells",
+        "basic",
+        "care"
+      ],
+      "explanation_en": "This is a friendly way to say goodbye and wish someone well."
+    }
+  ]
+}
