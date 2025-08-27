@@ -3,7 +3,7 @@ name: Daily Quizzes
 
 on:
   schedule:
-    - cron: "0 13 * * *"   # 13:00 UTC
+    - cron: "0 12 * * *"   # 13:00 UTC
   workflow_dispatch:
 
 permissions:
