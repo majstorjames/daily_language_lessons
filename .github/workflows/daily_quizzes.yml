@@ -63,27 +63,24 @@ jobs:
         shell: bash
         run: |
           set -e
-
           BRANCH="${GITHUB_REF_NAME}"
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Make sure we're up to date with remote
           git fetch origin "$BRANCH"
           git checkout "$BRANCH"
 
-          # Stage only data/ (adjust to -A if you want everything)
-          git add data/
-          git commit -m "Update quiz data (es, pt) [skip ci]" || echo "No changes to commit"
+          git add data/ || true
 
-          # If nothing to commit, exit successfully
-          if git diff --cached --quiet && git diff --quiet; then
-            echo "No changes detected; nothing to push."
+          if git commit -m "Update quiz data (es, pt) [skip ci]"; then
+            echo "Committed changes, preparing to push..."
+          else
+            echo "No changes to commit."
             exit 0
           fi
 
-          # Rebase and retry push up to 3 times to avoid non-fast-forward failures
+          # Rebase & retry push up to 3 times
           for i in 1 2 3; do
             git pull --rebase --autostash origin "$BRANCH" || true
             if git push origin "$BRANCH"; then
@@ -96,3 +93,44 @@ jobs:
 
           echo "Failed to push after retries."
           exit 1
+
+
+      # - name: Commit & push data changes (rebase-safe with retries)
+      #   shell: bash
+      #   run: |
+      #     set -e
+
+      #     BRANCH="${GITHUB_REF_NAME}"
+
+      #     git config user.name "github-actions[bot]"
+      #     git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      #     # Make sure we're up to date with remote
+      #     git fetch origin "$BRANCH"
+      #     git checkout "$BRANCH"
+
+      #     # Stage only data/ (adjust to -A if you want everything)
+      #     git add data/
+      #     git commit -m "Update quiz data (es, pt) [skip ci]" || echo "No changes to commit"
+
+      #     # If nothing to commit, exit successfully
+      #     if git diff --cached --quiet && git diff --quiet; then
+      #       echo "No changes detected; nothing to push."
+      #       exit 0
+      #     fi
+
+      #     # Rebase and retry push up to 3 times to avoid non-fast-forward failures
+      #     for i in 1 2 3; do
+      #       git pull --rebase --autostash origin "$BRANCH" || true
+      #       if git push origin "$BRANCH"; then
+      #         echo "Pushed on attempt $i"
+      #         exit 0
+      #       fi
+      #       echo "Push failed (attempt $i). Retrying…"
+      #       sleep 2
+      #     done
+
+      #     echo "Failed to push after retries."
+      #     exit 1
+
+  

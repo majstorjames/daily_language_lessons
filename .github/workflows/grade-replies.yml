@@ -63,24 +63,24 @@ jobs:
         shell: bash
         run: |
           set -e
-
           BRANCH="${GITHUB_REF_NAME}"
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Stage only data/ (widen to -A if you also want other files)
+          git fetch origin "$BRANCH"
+          git checkout "$BRANCH"
+
           git add data/ || true
 
-          # If nothing staged, exit cleanly
-          if git diff --staged --quiet; then
-            echo "No changes detected; nothing to commit."
+          if git commit -m "Update quiz data (es, pt) [skip ci]"; then
+            echo "Committed changes, preparing to push..."
+          else
+            echo "No changes to commit."
             exit 0
           fi
 
-          git commit -m "Grade replies: update data (es, pt) [skip ci]"
-
-          # Rebase & retry push up to 3 times to avoid non-fast-forward failures
+          # Rebase & retry push up to 3 times
           for i in 1 2 3; do
             git pull --rebase --autostash origin "$BRANCH" || true
             if git push origin "$BRANCH"; then
