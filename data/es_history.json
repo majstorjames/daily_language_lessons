@@ -2225,6 +2225,112 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2025-08-27T18:57:40.908412+00:00",
+      "items": [
+        {
+          "en": "Hello, how are you today?",
+          "gold": "Hola, ¿cómo estás hoy?",
+          "user": "hola, blah blah",
+          "status": "Needs work",
+          "topics": [
+            "greetings",
+            "introductions",
+            "everyday"
+          ]
+        },
+        {
+          "en": "Nice to meet you.",
+          "gold": "Mucho gusto.",
+          "user": "Me gusto",
+          "status": "Needs work",
+          "topics": [
+            "introductions",
+            "greetings"
+          ]
+        },
+        {
+          "en": "What is your name?",
+          "gold": "¿Cuál es tu nombre?",
+          "user": "",
+          "status": "Needs work",
+          "topics": [
+            "introductions",
+            "questions"
+          ]
+        },
+        {
+          "en": "I am glad to see you.",
+          "gold": "Me alegra verte.",
+          "user": "",
+          "status": "Needs work",
+          "topics": [
+            "greetings",
+            "feelings"
+          ]
+        },
+        {
+          "en": "Where are you from?",
+          "gold": "¿De dónde eres?",
+          "user": "",
+          "status": "Needs work",
+          "topics": [
+            "questions",
+            "introductions"
+          ]
+        },
+        {
+          "en": "Have a great day!",
+          "gold": "¡Que tengas un gran día!",
+          "user": "",
+          "status": "Needs work",
+          "topics": [
+            "greetings",
+            "wishes"
+          ]
+        },
+        {
+          "en": "See you later!",
+          "gold": "¡Hasta luego!",
+          "user": "",
+          "status": "Needs work",
+          "topics": [
+            "farewells",
+            "greetings"
+          ]
+        },
+        {
+          "en": "How was your weekend?",
+          "gold": "¿Cómo fue tu fin de semana?",
+          "user": "",
+          "status": "Needs work",
+          "topics": [
+            "questions",
+            "everyday"
+          ]
+        },
+        {
+          "en": "It's nice to see you again.",
+          "gold": "Es agradable verte de nuevo.",
+          "user": "",
+          "status": "Needs work",
+          "topics": [
+            "greetings",
+            "introductions"
+          ]
+        },
+        {
+          "en": "What do you do for a living?",
+          "gold": "¿A qué te dedicas?",
+          "user": "",
+          "status": "Needs work",
+          "topics": [
+            "questions",
+            "introductions"
+          ]
+        }
+      ]
     }
   ]
 }
