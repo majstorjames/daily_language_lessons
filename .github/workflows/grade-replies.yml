@@ -1,52 +1,3 @@
-# # .github/workflows/grade-replies.yml
-# name: Grade Replies
-# on:
-#   schedule:
-#     - cron: "*/10 * * * *"
-#   workflow_dispatch:       # 👈 allows manual triggering
-# jobs:
-#   es_answers:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - uses: actions/checkout@v4
-#       - uses: actions/setup-python@v5
-#         with: { python-version: "3.11" }
-#       - run: pip install -r requirements.txt
-#       - run: python quiz_email.py --mode answers --lang es
-#         env:
-#           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-#           SMTP_HOST: smtp.gmail.com
-#           SMTP_PORT: 587
-#           SMTP_USER: ${{ secrets.SMTP_USER }}
-#           SMTP_PASS: ${{ secrets.SMTP_PASS }}
-#           IMAP_HOST: imap.gmail.com
-#           IMAP_PORT: 993
-#           IMAP_USER: ${{ secrets.IMAP_USER }}
-#           IMAP_PASS: ${{ secrets.IMAP_PASS }}
-#           ES_RECIPIENTS: ${{ secrets.ES_RECIPIENTS }}
-#   pt_answers:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - uses: actions/checkout@v4
-#       - uses: actions/setup-python@v5
-#         with: { python-version: "3.11" }
-#       - run: pip install -r requirements.txt
-#       - run: python quiz_email.py --mode answers --lang pt
-#         env:
-#           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-#           SMTP_HOST: smtp.gmail.com
-#           SMTP_PORT: 587
-#           SMTP_USER: ${{ secrets.SMTP_USER }}
-#           SMTP_PASS: ${{ secrets.SMTP_PASS }}
-#           IMAP_HOST: imap.gmail.com
-#           IMAP_PORT: 993
-#           IMAP_USER: ${{ secrets.IMAP_USER }}
-#           IMAP_PASS: ${{ secrets.IMAP_PASS }}
-#           PT_RECIPIENTS: ${{ secrets.PT_RECIPIENTS }}
-
-
-
-
 # .github/workflows/grade-replies.yml
 name: Grade Replies
 
@@ -56,7 +7,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write   # needed to push with GITHUB_TOKEN
+  contents: write  # allow pushes with GITHUB_TOKEN
 
 concurrency:
   group: grade-replies-${{ github.ref }}
@@ -66,16 +17,18 @@ jobs:
   grade_and_commit:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repo (with push token)
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: actions/setup-python@v5
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Install deps
+      - name: Install dependencies
         run: pip install -r requirements.txt
 
       - name: Grade ES replies
@@ -106,20 +59,37 @@ jobs:
           IMAP_PASS: ${{ secrets.IMAP_PASS }}
           PT_RECIPIENTS: ${{ secrets.PT_RECIPIENTS }}
 
-      - name: Commit and push data changes
+      - name: Commit & push data changes (rebase-safe with retries)
+        shell: bash
         run: |
+          set -e
+
+          BRANCH="${GITHUB_REF_NAME}"
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # If you only ever change files under data/
-          git add data/
+          # Stage only data/ (widen to -A if you also want other files)
+          git add data/ || true
 
-          # If sometimes other files change (logs, reports), you can widen scope:
-          # git add -A
+          # If nothing staged, exit cleanly
+          if git diff --staged --quiet; then
+            echo "No changes detected; nothing to commit."
+            exit 0
+          fi
 
-          git commit -m "Grade replies: update data (es, pt) [skip ci]" || echo "No changes to commit"
+          git commit -m "Grade replies: update data (es, pt) [skip ci]"
 
-          # Rebase in case another workflow pushed in the last minutes
-          CURRENT_BRANCH="${GITHUB_REF##*/}"
-          git pull --rebase origin "$CURRENT_BRANCH" || true
-          git push origin "$CURRENT_BRANCH" || true
+          # Rebase & retry push up to 3 times to avoid non-fast-forward failures
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin "$BRANCH" || true
+            if git push origin "$BRANCH"; then
+              echo "Pushed on attempt $i"
+              exit 0
+            fi
+            echo "Push failed (attempt $i). Retrying…"
+            sleep 2
+          done
+
+          echo "Failed to push after retries."
+          exit 1
