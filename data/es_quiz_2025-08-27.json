@@ -1,0 +1,106 @@
+{
+  "theme": "Greetings & Introductions",
+  "lesson_html": "<ul>\n    <li><strong>Greetings:</strong> Start with a friendly \"Hello!\" or \"Hi!\" to make a positive first impression.</li>\n    <li><strong>Ask for a name:</strong> Use questions like \"What is your name?\" or \"I'm [Your Name], what's yours?\"</li>\n    <li><strong>Respond politely:</strong> When someone introduces themselves, reply with \"Nice to meet you!\" or \"Pleasure to meet you!\"</li>\n    <li><strong>Follow up:</strong> You can ask simple questions like \"How are you?\" or \"Where are you from?\" to keep the conversation going.</li>\n</ul>",
+  "items": [
+    {
+      "en": "Hello, how are you today?",
+      "target": "Hola, ¿cómo estás hoy?",
+      "topics": [
+        "greetings",
+        "questions",
+        "everyday"
+      ],
+      "explanation_en": "This is a common way to greet someone and ask about their well-being."
+    },
+    {
+      "en": "My name is John.",
+      "target": "Me llamo John.",
+      "topics": [
+        "introductions",
+        "names",
+        "everyday"
+      ],
+      "explanation_en": "This sentence is used to introduce oneself."
+    },
+    {
+      "en": "Nice to meet you.",
+      "target": "Encantado de conocerte.",
+      "topics": [
+        "greetings",
+        "introductions",
+        "everyday"
+      ],
+      "explanation_en": "This phrase is often used when meeting someone for the first time."
+    },
+    {
+      "en": "Where are you from?",
+      "target": "¿De dónde eres?",
+      "topics": [
+        "questions",
+        "everyday",
+        "greetings"
+      ],
+      "explanation_en": "This is a common question to learn about someone's background."
+    },
+    {
+      "en": "I am from Canada.",
+      "target": "Soy de Canadá.",
+      "topics": [
+        "statements",
+        "everyday",
+        "introductions"
+      ],
+      "explanation_en": "This sentence is used to share one's place of origin."
+    },
+    {
+      "en": "What is your name?",
+      "target": "¿Cuál es tu nombre?",
+      "topics": [
+        "questions",
+        "introductions",
+        "everyday"
+      ],
+      "explanation_en": "This question is used to ask someone for their name."
+    },
+    {
+      "en": "Good morning!",
+      "target": "¡Buenos días!",
+      "topics": [
+        "greetings",
+        "everyday",
+        "morning"
+      ],
+      "explanation_en": "This is a common greeting used in the morning."
+    },
+    {
+      "en": "Goodbye, see you later.",
+      "target": "Adiós, hasta luego.",
+      "topics": [
+        "farewells",
+        "everyday",
+        "greetings"
+      ],
+      "explanation_en": "This phrase is used to say goodbye and indicate a future meeting."
+    },
+    {
+      "en": "How was your day?",
+      "target": "¿Cómo fue tu día?",
+      "topics": [
+        "questions",
+        "everyday",
+        "greetings"
+      ],
+      "explanation_en": "This question is used to inquire about someone's day."
+    },
+    {
+      "en": "I look forward to meeting you.",
+      "target": "Espero conocerte.",
+      "topics": [
+        "introductions",
+        "everyday",
+        "future"
+      ],
+      "explanation_en": "This sentence expresses anticipation for a future meeting."
+    }
+  ]
+}
