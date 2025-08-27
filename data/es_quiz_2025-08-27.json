@@ -1,0 +1,97 @@
+{
+  "theme": "Greetings & Introductions",
+  "lesson_html": "<ul>\n    <li><strong>Greetings:</strong> Start with a friendly \"Hello!\" or \"Hi!\" to make a good first impression.</li>\n    <li><strong>Ask Questions:</strong> Use questions like \"How are you?\" to show interest in the other person.</li>\n    <li><strong>Introduce Yourself:</strong> Say your name clearly, for example, \"My name is [Your Name].\"</li>\n    <li><strong>Respond:</strong> When someone introduces themselves, reply with \"Nice to meet you!\"</li>\n    <li><strong>Body Language:</strong> Smile and maintain eye contact to show you are engaged.</li>\n</ul>",
+  "items": [
+    {
+      "en": "Hello, how are you today?",
+      "target": "Hola, ¿cómo estás hoy?",
+      "topics": [
+        "greetings",
+        "introductions",
+        "everyday"
+      ],
+      "explanation_en": "This is a common way to greet someone and ask about their well-being."
+    },
+    {
+      "en": "Nice to meet you.",
+      "target": "Mucho gusto.",
+      "topics": [
+        "introductions",
+        "greetings"
+      ],
+      "explanation_en": "This phrase is used when meeting someone for the first time."
+    },
+    {
+      "en": "What is your name?",
+      "target": "¿Cuál es tu nombre?",
+      "topics": [
+        "introductions",
+        "questions"
+      ],
+      "explanation_en": "This is a straightforward way to ask someone for their name."
+    },
+    {
+      "en": "I am glad to see you.",
+      "target": "Me alegra verte.",
+      "topics": [
+        "greetings",
+        "feelings"
+      ],
+      "explanation_en": "This expresses happiness about meeting someone again."
+    },
+    {
+      "en": "Where are you from?",
+      "target": "¿De dónde eres?",
+      "topics": [
+        "questions",
+        "introductions"
+      ],
+      "explanation_en": "This question is often asked to learn about someone's background."
+    },
+    {
+      "en": "Have a great day!",
+      "target": "¡Que tengas un gran día!",
+      "topics": [
+        "greetings",
+        "wishes"
+      ],
+      "explanation_en": "This is a friendly way to wish someone well for the day."
+    },
+    {
+      "en": "See you later!",
+      "target": "¡Hasta luego!",
+      "topics": [
+        "farewells",
+        "greetings"
+      ],
+      "explanation_en": "This is a casual way to say goodbye with the intention of meeting again."
+    },
+    {
+      "en": "How was your weekend?",
+      "target": "¿Cómo fue tu fin de semana?",
+      "topics": [
+        "questions",
+        "everyday"
+      ],
+      "explanation_en": "This question is commonly asked on Mondays to inquire about someone's weekend."
+    },
+    {
+      "en": "It's nice to see you again.",
+      "target": "Es agradable verte de nuevo.",
+      "topics": [
+        "greetings",
+        "introductions"
+      ],
+      "explanation_en": "This phrase is used when you meet someone you have seen before."
+    },
+    {
+      "en": "What do you do for a living?",
+      "target": "¿A qué te dedicas?",
+      "topics": [
+        "questions",
+        "introductions"
+      ],
+      "explanation_en": "This question is often asked to learn about someone's job or profession."
+    }
+  ]
+}
