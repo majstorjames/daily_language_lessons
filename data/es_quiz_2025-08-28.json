@@ -1,0 +1,106 @@
+{
+  "theme": "greetings",
+  "lesson_html": "<ul>\n    <li><strong>Hello!</strong> - A common way to greet someone.</li>\n    <li><strong>How are you?</strong> - A friendly way to ask about someone's well-being.</li>\n    <li><strong>Good morning!</strong> - Used in the morning until around noon.</li>\n    <li><strong>Good afternoon!</strong> - Used from noon until around 6 PM.</li>\n    <li><strong>Good evening!</strong> - Used after 6 PM to greet someone.</li>\n</ul>",
+  "items": [
+    {
+      "en": "What time do you usually wake up?",
+      "target": "¿A qué hora sueles despertarte?",
+      "topics": [
+        "greetings",
+        "daily routine",
+        "time"
+      ],
+      "explanation_en": "This question asks about someone's waking time."
+    },
+    {
+      "en": "Do you have any plans for tonight?",
+      "target": "¿Tienes planes para esta noche?",
+      "topics": [
+        "greetings",
+        "future plans",
+        "evening"
+      ],
+      "explanation_en": "This question inquires about evening plans."
+    },
+    {
+      "en": "How is your family doing?",
+      "target": "¿Cómo está tu familia?",
+      "topics": [
+        "greetings",
+        "family",
+        "well-being"
+      ],
+      "explanation_en": "This question asks about the well-being of someone's family."
+    },
+    {
+      "en": "What did you do last weekend?",
+      "target": "¿Qué hiciste el fin de semana pasado?",
+      "topics": [
+        "greetings",
+        "past activities",
+        "weekend"
+      ],
+      "explanation_en": "This question asks about activities from the previous weekend."
+    },
+    {
+      "en": "Are you enjoying your vacation?",
+      "target": "¿Estás disfrutando de tus vacaciones?",
+      "topics": [
+        "greetings",
+        "vacation",
+        "enjoyment"
+      ],
+      "explanation_en": "This question asks if someone is having a good time on vacation."
+    },
+    {
+      "en": "What are you doing this weekend?",
+      "target": "¿Qué vas a hacer este fin de semana?",
+      "topics": [
+        "greetings",
+        "future plans",
+        "weekend"
+      ],
+      "explanation_en": "This question inquires about plans for the upcoming weekend."
+    },
+    {
+      "en": "How do you feel today?",
+      "target": "¿Cómo te sientes hoy?",
+      "topics": [
+        "greetings",
+        "emotions",
+        "daily check-in"
+      ],
+      "explanation_en": "This question asks about someone's feelings on that day."
+    },
+    {
+      "en": "Did you have a good day?",
+      "target": "¿Tuviste un buen día?",
+      "topics": [
+        "greetings",
+        "past experiences",
+        "daily check-in"
+      ],
+      "explanation_en": "This question inquires about the quality of someone's day."
+    },
+    {
+      "en": "What is your favorite hobby?",
+      "target": "¿Cuál es tu pasatiempo favorito?",
+      "topics": [
+        "greetings",
+        "hobbies",
+        "interests"
+      ],
+      "explanation_en": "This question asks about someone's favorite leisure activity."
+    },
+    {
+      "en": "How often do you exercise?",
+      "target": "¿Con qué frecuencia haces ejercicio?",
+      "topics": [
+        "greetings",
+        "health",
+        "activity"
+      ],
+      "explanation_en": "This question inquires about the frequency of someone's exercise routine."
+    }
+  ]
+}
