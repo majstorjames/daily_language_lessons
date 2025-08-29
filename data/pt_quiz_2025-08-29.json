@@ -1,0 +1,88 @@
+{
+  "theme": "Saudações e apresentações",
+  "lesson_html": "<ul>\n    <li><strong>Olá!</strong> - Usado para cumprimentar alguém de forma informal.</li>\n    <li><strong>Bom dia!</strong> - Usado pela manhã, até o meio-dia.</li>\n    <li><strong>Boa tarde!</strong> - Usado após o meio-dia até o início da noite.</li>\n    <li><strong>Boa noite!</strong> - Usado à noite, tanto para cumprimentar quanto para se despedir.</li>\n    <li><strong>Meu nome é...</strong> - Forma de se apresentar, seguida do seu nome.</li>\n</ul>",
+  "items": [
+    {
+      "en": "Olá, como você está?",
+      "target": "Hello, how are you?",
+      "topics": [
+        "saudações",
+        "apresentações"
+      ],
+      "explanation_pt": "Uma saudação comum para perguntar sobre o bem-estar de alguém."
+    },
+    {
+      "en": "Meu nome é Maria.",
+      "target": "My name is Maria.",
+      "topics": [
+        "apresentações"
+      ],
+      "explanation_pt": "Uma forma simples de se apresentar."
+    },
+    {
+      "en": "Prazer em conhecê-lo.",
+      "target": "Nice to meet you.",
+      "topics": [
+        "saudações",
+        "apresentações"
+      ],
+      "explanation_pt": "Usado ao encontrar alguém pela primeira vez."
+    },
+    {
+      "en": "Você vem sempre aqui?",
+      "target": "Do you come here often?",
+      "topics": [
+        "saudações"
+      ],
+      "explanation_pt": "Uma pergunta comum para iniciar uma conversa."
+    },
+    {
+      "en": "Como foi seu dia?",
+      "target": "How was your day?",
+      "topics": [
+        "saudações"
+      ],
+      "explanation_pt": "Uma maneira de perguntar sobre o dia de alguém."
+    },
+    {
+      "en": "Eu sou do Brasil.",
+      "target": "I am from Brazil.",
+      "topics": [
+        "apresentações"
+      ],
+      "explanation_pt": "Informação sobre a origem de uma pessoa."
+    },
+    {
+      "en": "Você gostaria de se apresentar?",
+      "target": "Would you like to introduce yourself?",
+      "topics": [
+        "apresentações"
+      ],
+      "explanation_pt": "Uma pergunta que convida alguém a se apresentar."
+    },
+    {
+      "en": "Até logo, nos vemos depois.",
+      "target": "See you later.",
+      "topics": [
+        "saudações"
+      ],
+      "explanation_pt": "Uma despedida informal."
+    },
+    {
+      "en": "Qual é o seu nome?",
+      "target": "What is your name?",
+      "topics": [
+        "apresentações"
+      ],
+      "explanation_pt": "Uma pergunta básica para saber o nome de alguém."
+    },
+    {
+      "en": "Estou feliz em te ver.",
+      "target": "I am happy to see you.",
+      "topics": [
+        "saudações"
+      ],
+      "explanation_pt": "Expressa alegria ao encontrar alguém."
+    }
+  ]
+}
