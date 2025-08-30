@@ -1,0 +1,106 @@
+{
+  "theme": "greetings",
+  "lesson_html": "<ul>\n    <li><strong>Hello!</strong> - A common way to greet someone.</li>\n    <li><strong>How are you?</strong> - A friendly way to ask about someone's well-being.</li>\n    <li><strong>Good morning/afternoon/evening!</strong> - Time-specific greetings to show politeness.</li>\n    <li><strong>Nice to meet you!</strong> - Used when you meet someone for the first time.</li>\n    <li><strong>Goodbye!</strong> - A way to say farewell when parting.</li>\n</ul>",
+  "items": [
+    {
+      "en": "how have you been lately?",
+      "target": "¿cómo has estado últimamente?",
+      "topics": [
+        "greetings",
+        "well-being",
+        "questions"
+      ],
+      "explanation_en": "This question asks about someone's recent state."
+    },
+    {
+      "en": "what time is it?",
+      "target": "¿qué hora es?",
+      "topics": [
+        "greetings",
+        "time",
+        "questions"
+      ],
+      "explanation_en": "This is a common question to inquire about the current time."
+    },
+    {
+      "en": "are you feeling okay?",
+      "target": "¿te sientes bien?",
+      "topics": [
+        "greetings",
+        "well-being",
+        "concern"
+      ],
+      "explanation_en": "This question expresses concern for someone's well-being."
+    },
+    {
+      "en": "do you have any plans for today?",
+      "target": "¿tienes planes para hoy?",
+      "topics": [
+        "greetings",
+        "plans",
+        "questions"
+      ],
+      "explanation_en": "This asks if someone has activities scheduled for the day."
+    },
+    {
+      "en": "what did you do yesterday?",
+      "target": "¿qué hiciste ayer?",
+      "topics": [
+        "greetings",
+        "past",
+        "questions"
+      ],
+      "explanation_en": "This question inquires about someone's activities from the previous day."
+    },
+    {
+      "en": "will you join us for lunch?",
+      "target": "¿te unirás a nosotros para el almuerzo?",
+      "topics": [
+        "greetings",
+        "future",
+        "invitations"
+      ],
+      "explanation_en": "This is an invitation to share a meal together."
+    },
+    {
+      "en": "how do you like this place?",
+      "target": "¿qué te parece este lugar?",
+      "topics": [
+        "greetings",
+        "opinions",
+        "questions"
+      ],
+      "explanation_en": "This question asks for someone's opinion about a location."
+    },
+    {
+      "en": "it's been a while since we met.",
+      "target": "ha pasado un tiempo desde que nos vimos.",
+      "topics": [
+        "greetings",
+        "time",
+        "past"
+      ],
+      "explanation_en": "This statement reflects on the time since the last meeting."
+    },
+    {
+      "en": "are you ready to go?",
+      "target": "¿estás listo para irte?",
+      "topics": [
+        "greetings",
+        "readiness",
+        "questions"
+      ],
+      "explanation_en": "This question checks if someone is prepared to leave."
+    },
+    {
+      "en": "let's catch up soon!",
+      "target": "¡pongámonos al día pronto!",
+      "topics": [
+        "greetings",
+        "future",
+        "plans"
+      ],
+      "explanation_en": "This expresses a desire to reconnect in the near future."
+    }
+  ]
+}
