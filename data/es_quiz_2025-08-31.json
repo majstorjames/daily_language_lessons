@@ -1,0 +1,96 @@
+{
+  "theme": "greetings",
+  "lesson_html": "<ul>\n    <li><strong>Hello!</strong> - A common way to greet someone.</li>\n    <li><strong>How are you?</strong> - A friendly way to ask about someone's well-being.</li>\n    <li><strong>Good morning/afternoon/evening!</strong> - Time-specific greetings to show politeness.</li>\n    <li><strong>Nice to meet you!</strong> - Used when meeting someone for the first time.</li>\n    <li><strong>Goodbye!</strong> - A polite way to say farewell.</li>\n</ul>",
+  "items": [
+    {
+      "en": "What time do you usually wake up?",
+      "target": "¿A qué hora sueles despertarte?",
+      "topics": [
+        "greetings",
+        "daily routine"
+      ],
+      "explanation_en": "This question asks about a common daily activity."
+    },
+    {
+      "en": "Did you enjoy your vacation?",
+      "target": "¿Disfrutaste tus vacaciones?",
+      "topics": [
+        "greetings",
+        "past experience"
+      ],
+      "explanation_en": "This question refers to a past event related to leisure."
+    },
+    {
+      "en": "Are you ready for the meeting?",
+      "target": "¿Estás listo para la reunión?",
+      "topics": [
+        "greetings",
+        "work"
+      ],
+      "explanation_en": "This question checks someone's preparedness for a work-related event."
+    },
+    {
+      "en": "What did you have for breakfast?",
+      "target": "¿Qué desayunaste?",
+      "topics": [
+        "greetings",
+        "food"
+      ],
+      "explanation_en": "This question inquires about a meal from the morning."
+    },
+    {
+      "en": "Will you join us for dinner?",
+      "target": "¿Te unirás a nosotros para cenar?",
+      "topics": [
+        "greetings",
+        "food"
+      ],
+      "explanation_en": "This question invites someone to a meal in the future."
+    },
+    {
+      "en": "How do you feel today?",
+      "target": "¿Cómo te sientes hoy?",
+      "topics": [
+        "greetings",
+        "emotions"
+      ],
+      "explanation_en": "This question asks about someone's current emotional state."
+    },
+    {
+      "en": "What are your plans for the weekend?",
+      "target": "¿Cuáles son tus planes para el fin de semana?",
+      "topics": [
+        "greetings",
+        "future plans"
+      ],
+      "explanation_en": "This question inquires about someone's upcoming activities."
+    },
+    {
+      "en": "Did you see that movie last week?",
+      "target": "¿Viste esa película la semana pasada?",
+      "topics": [
+        "greetings",
+        "past experience"
+      ],
+      "explanation_en": "This question refers to a past event related to entertainment."
+    },
+    {
+      "en": "Are you going to the party tomorrow?",
+      "target": "¿Vas a la fiesta mañana?",
+      "topics": [
+        "greetings",
+        "future plans"
+      ],
+      "explanation_en": "This question asks about someone's attendance at a future event."
+    },
+    {
+      "en": "How was your day at work?",
+      "target": "¿Cómo fue tu día en el trabajo?",
+      "topics": [
+        "greetings",
+        "work"
+      ],
+      "explanation_en": "This question inquires about someone's workday experience."
+    }
+  ]
+}
