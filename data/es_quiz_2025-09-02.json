@@ -1,0 +1,106 @@
+{
+  "theme": "greetings",
+  "lesson_html": "<ul>\n    <li><strong>Hello!</strong> - A common way to greet someone.</li>\n    <li><strong>How are you?</strong> - A friendly way to ask about someone's well-being.</li>\n    <li><strong>Good morning/afternoon/evening!</strong> - Time-specific greetings to show politeness.</li>\n    <li><strong>Nice to meet you!</strong> - Used when meeting someone for the first time.</li>\n    <li><strong>Goodbye!</strong> - A way to say farewell when parting.</li>\n</ul>",
+  "items": [
+    {
+      "en": "how do you feel today?",
+      "target": "¿cómo te sientes hoy?",
+      "topics": [
+        "greetings",
+        "feelings",
+        "present"
+      ],
+      "explanation_en": "This question asks about someone's current emotional state."
+    },
+    {
+      "en": "what did you do yesterday?",
+      "target": "¿qué hiciste ayer?",
+      "topics": [
+        "greetings",
+        "past",
+        "activities"
+      ],
+      "explanation_en": "This question inquires about activities from the previous day."
+    },
+    {
+      "en": "are you enjoying your time here?",
+      "target": "¿estás disfrutando tu tiempo aquí?",
+      "topics": [
+        "greetings",
+        "present",
+        "enjoyment"
+      ],
+      "explanation_en": "This asks if someone is having a good experience at a location."
+    },
+    {
+      "en": "what are your plans for tomorrow?",
+      "target": "¿cuáles son tus planes para mañana?",
+      "topics": [
+        "greetings",
+        "future",
+        "plans"
+      ],
+      "explanation_en": "This question is about future intentions or arrangements."
+    },
+    {
+      "en": "did you have a good day?",
+      "target": "¿tuviste un buen día?",
+      "topics": [
+        "greetings",
+        "past",
+        "experience"
+      ],
+      "explanation_en": "This asks if someone had a positive experience during the day."
+    },
+    {
+      "en": "what's your favorite hobby?",
+      "target": "¿cuál es tu pasatiempo favorito?",
+      "topics": [
+        "greetings",
+        "interests",
+        "present"
+      ],
+      "explanation_en": "This question seeks to know about someone's preferred leisure activity."
+    },
+    {
+      "en": "how long have you lived here?",
+      "target": "¿cuánto tiempo has vivido aquí?",
+      "topics": [
+        "greetings",
+        "present",
+        "duration"
+      ],
+      "explanation_en": "This asks about the length of time someone has resided in a place."
+    },
+    {
+      "en": "are you coming to the party?",
+      "target": "¿vas a venir a la fiesta?",
+      "topics": [
+        "greetings",
+        "future",
+        "invitation"
+      ],
+      "explanation_en": "This question invites someone to attend an event."
+    },
+    {
+      "en": "what do you like to do in your free time?",
+      "target": "¿qué te gusta hacer en tu tiempo libre?",
+      "topics": [
+        "greetings",
+        "interests",
+        "present"
+      ],
+      "explanation_en": "This asks about someone's preferences during leisure time."
+    },
+    {
+      "en": "when did you arrive?",
+      "target": "¿cuándo llegaste?",
+      "topics": [
+        "greetings",
+        "past",
+        "arrival"
+      ],
+      "explanation_en": "This question inquires about the time of someone's arrival."
+    }
+  ]
+}
