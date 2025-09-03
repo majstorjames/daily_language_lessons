@@ -1,0 +1,106 @@
+{
+  "theme": "greetings",
+  "lesson_html": "<ul>\n    <li><strong>Hello!</strong> - A common way to greet someone.</li>\n    <li><strong>How are you?</strong> - A friendly way to ask about someone's well-being.</li>\n    <li><strong>Good morning!</strong> - Used in the morning until around noon.</li>\n    <li><strong>Good afternoon!</strong> - Used from noon until about 5 PM.</li>\n    <li><strong>Good evening!</strong> - Used after 5 PM until bedtime.</li>\n</ul>",
+  "items": [
+    {
+      "en": "How have you been lately?",
+      "target": "¿Cómo has estado últimamente?",
+      "topics": [
+        "greetings",
+        "well-being",
+        "conversation"
+      ],
+      "explanation_en": "This question asks about someone's recent state or feelings."
+    },
+    {
+      "en": "What time is it?",
+      "target": "¿Qué hora es?",
+      "topics": [
+        "greetings",
+        "time",
+        "conversation"
+      ],
+      "explanation_en": "This is a common question to inquire about the current time."
+    },
+    {
+      "en": "Do you have any plans for today?",
+      "target": "¿Tienes planes para hoy?",
+      "topics": [
+        "greetings",
+        "plans",
+        "conversation"
+      ],
+      "explanation_en": "This question asks if someone has activities scheduled for the day."
+    },
+    {
+      "en": "I hope you are doing well.",
+      "target": "Espero que estés bien.",
+      "topics": [
+        "greetings",
+        "well-being",
+        "conversation"
+      ],
+      "explanation_en": "This expresses a wish for someone's good health or happiness."
+    },
+    {
+      "en": "What did you do last night?",
+      "target": "¿Qué hiciste anoche?",
+      "topics": [
+        "greetings",
+        "past",
+        "conversation"
+      ],
+      "explanation_en": "This question inquires about someone's activities from the previous night."
+    },
+    {
+      "en": "Are you enjoying your time here?",
+      "target": "¿Estás disfrutando tu tiempo aquí?",
+      "topics": [
+        "greetings",
+        "enjoyment",
+        "conversation"
+      ],
+      "explanation_en": "This asks if someone is having a good experience in their current location."
+    },
+    {
+      "en": "Will you be at the party tomorrow?",
+      "target": "¿Estarás en la fiesta mañana?",
+      "topics": [
+        "greetings",
+        "future",
+        "plans"
+      ],
+      "explanation_en": "This question asks about someone's attendance at a future event."
+    },
+    {
+      "en": "It's been a while since we last met.",
+      "target": "Ha pasado un tiempo desde que nos vimos por última vez.",
+      "topics": [
+        "greetings",
+        "past",
+        "reunion"
+      ],
+      "explanation_en": "This acknowledges the time since the last meeting with someone."
+    },
+    {
+      "en": "What are you looking forward to this week?",
+      "target": "¿Qué esperas con ansias esta semana?",
+      "topics": [
+        "greetings",
+        "future",
+        "plans"
+      ],
+      "explanation_en": "This question asks about someone's anticipated events in the coming week."
+    },
+    {
+      "en": "I missed you!",
+      "target": "¡Te extrañé!",
+      "topics": [
+        "greetings",
+        "feelings",
+        "reunion"
+      ],
+      "explanation_en": "This expresses a feeling of longing for someone's presence."
+    }
+  ]
+}

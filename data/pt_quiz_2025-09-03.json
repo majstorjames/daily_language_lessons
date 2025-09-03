@@ -1,0 +1,88 @@
+{
+  "theme": "Saudações e apresentações",
+  "lesson_html": "<ul>\n    <li><strong>Saudações Comuns:</strong> Use \"Olá\" para cumprimentos informais e \"Bom dia\", \"Boa tarde\" ou \"Boa noite\" para situações mais formais.</li>\n    <li><strong>Apresentando-se:</strong> Diga seu nome: \"Meu nome é [seu nome].\"</li>\n    <li><strong>Perguntando o nome:</strong> Pergunte a outra pessoa: \"Qual é o seu nome?\"</li>\n    <li><strong>Despedidas:</strong> Use \"Tchau\" para despedidas informais e \"Até logo\" para um tom mais formal.</li>\n</ul>",
+  "items": [
+    {
+      "en": "Olá, como você está?",
+      "target": "Hello, how are you?",
+      "topics": [
+        "saudações",
+        "apresentações"
+      ],
+      "explanation_pt": "Uma saudação comum para perguntar sobre o bem-estar."
+    },
+    {
+      "en": "Meu nome é Maria.",
+      "target": "My name is Maria.",
+      "topics": [
+        "apresentações"
+      ],
+      "explanation_pt": "Uma forma simples de se apresentar."
+    },
+    {
+      "en": "Prazer em conhecê-lo.",
+      "target": "Nice to meet you.",
+      "topics": [
+        "apresentações"
+      ],
+      "explanation_pt": "Usado ao encontrar alguém pela primeira vez."
+    },
+    {
+      "en": "Você vem sempre aqui?",
+      "target": "Do you come here often?",
+      "topics": [
+        "saudações"
+      ],
+      "explanation_pt": "Uma pergunta comum para iniciar uma conversa."
+    },
+    {
+      "en": "Como foi seu dia?",
+      "target": "How was your day?",
+      "topics": [
+        "saudações"
+      ],
+      "explanation_pt": "Uma maneira de perguntar sobre o dia de alguém."
+    },
+    {
+      "en": "Eu sou de São Paulo.",
+      "target": "I am from São Paulo.",
+      "topics": [
+        "apresentações"
+      ],
+      "explanation_pt": "Usado para informar de onde você é."
+    },
+    {
+      "en": "Você gosta de viajar?",
+      "target": "Do you like to travel?",
+      "topics": [
+        "saudações"
+      ],
+      "explanation_pt": "Uma pergunta para conhecer os interesses de alguém."
+    },
+    {
+      "en": "Qual é o seu hobby?",
+      "target": "What is your hobby?",
+      "topics": [
+        "apresentações"
+      ],
+      "explanation_pt": "Usado para perguntar sobre os interesses pessoais."
+    },
+    {
+      "en": "Eu estive ocupado ontem.",
+      "target": "I was busy yesterday.",
+      "topics": [
+        "passado"
+      ],
+      "explanation_pt": "Uma declaração sobre o que aconteceu no passado."
+    },
+    {
+      "en": "Nós vamos nos encontrar amanhã.",
+      "target": "We will meet tomorrow.",
+      "topics": [
+        "futuro",
+        "apresentações"
+      ],
+      "explanation_pt": "Usado para planejar um encontro no futuro."
+    }
+  ]
+}
