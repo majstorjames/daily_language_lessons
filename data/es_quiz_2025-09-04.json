@@ -1,0 +1,96 @@
+{
+  "theme": "greetings",
+  "lesson_html": "<ul>\n    <li><strong>Hello!</strong> - A common way to greet someone.</li>\n    <li><strong>How are you?</strong> - A friendly way to ask about someone's well-being.</li>\n    <li><strong>Good morning/afternoon/evening!</strong> - Time-specific greetings to show politeness.</li>\n    <li><strong>Nice to meet you!</strong> - Used when meeting someone for the first time.</li>\n    <li><strong>Goodbye!</strong> - A way to say farewell when parting.</li>\n</ul>",
+  "items": [
+    {
+      "en": "Good morning!",
+      "target": "¡buenos días!",
+      "topics": [
+        "greetings",
+        "morning"
+      ],
+      "explanation_en": "A common way to greet someone in the morning."
+    },
+    {
+      "en": "How have you been?",
+      "target": "¿cómo has estado?",
+      "topics": [
+        "greetings",
+        "well-being"
+      ],
+      "explanation_en": "A friendly inquiry about someone's recent state."
+    },
+    {
+      "en": "What time is it?",
+      "target": "¿qué hora es?",
+      "topics": [
+        "greetings",
+        "time"
+      ],
+      "explanation_en": "A simple question often asked in conversation."
+    },
+    {
+      "en": "Are you okay?",
+      "target": "¿estás bien?",
+      "topics": [
+        "greetings",
+        "well-being"
+      ],
+      "explanation_en": "A caring question to check on someone's well-being."
+    },
+    {
+      "en": "I hope you are well.",
+      "target": "espero que estés bien.",
+      "topics": [
+        "greetings",
+        "well-being"
+      ],
+      "explanation_en": "A polite expression of concern for someone's health."
+    },
+    {
+      "en": "What did you do yesterday?",
+      "target": "¿qué hiciste ayer?",
+      "topics": [
+        "greetings",
+        "past"
+      ],
+      "explanation_en": "A question about someone's activities from the previous day."
+    },
+    {
+      "en": "Do you have any plans for tomorrow?",
+      "target": "¿tienes planes para mañana?",
+      "topics": [
+        "greetings",
+        "future"
+      ],
+      "explanation_en": "An inquiry about someone's upcoming schedule."
+    },
+    {
+      "en": "It's been a while!",
+      "target": "¡ha pasado un tiempo!",
+      "topics": [
+        "greetings",
+        "time"
+      ],
+      "explanation_en": "A phrase used when reconnecting with someone after some time."
+    },
+    {
+      "en": "Take care!",
+      "target": "¡cuídate!",
+      "topics": [
+        "greetings",
+        "farewell"
+      ],
+      "explanation_en": "A friendly way to say goodbye while expressing care."
+    },
+    {
+      "en": "I look forward to seeing you.",
+      "target": "espero verte.",
+      "topics": [
+        "greetings",
+        "future"
+      ],
+      "explanation_en": "A positive statement expressing anticipation for a future meeting."
+    }
+  ]
+}
