@@ -1,0 +1,96 @@
+{
+  "theme": "Saudações e apresentações",
+  "lesson_html": "<ul>\n    <li><strong>Olá!</strong> - Uma saudação comum para cumprimentar alguém.</li>\n    <li><strong>Como você se chama?</strong> - Pergunta para saber o nome da pessoa.</li>\n    <li><strong>Meu nome é...</strong> - Forma de se apresentar.</li>\n    <li><strong>Prazer em conhecê-lo!</strong> - Usado após a apresentação para expressar satisfação.</li>\n    <li><strong>Como você está?</strong> - Pergunta para saber sobre o bem-estar da pessoa.</li>\n</ul>",
+  "items": [
+    {
+      "en": "Olá, como você está?",
+      "target": "Hello, how are you?",
+      "topics": [
+        "saudações",
+        "perguntas"
+      ],
+      "explanation_pt": "Uma saudação comum para perguntar sobre o bem-estar."
+    },
+    {
+      "en": "Meu nome é Maria.",
+      "target": "My name is Maria.",
+      "topics": [
+        "apresentações",
+        "nome"
+      ],
+      "explanation_pt": "Usado para se apresentar a alguém."
+    },
+    {
+      "en": "Prazer em conhecê-lo.",
+      "target": "Nice to meet you.",
+      "topics": [
+        "apresentações",
+        "saudações"
+      ],
+      "explanation_pt": "Uma expressão usada ao conhecer alguém pela primeira vez."
+    },
+    {
+      "en": "Você é de onde?",
+      "target": "Where are you from?",
+      "topics": [
+        "perguntas",
+        "origem"
+      ],
+      "explanation_pt": "Pergunta comum para saber a origem de alguém."
+    },
+    {
+      "en": "Estou bem, obrigado.",
+      "target": "I am fine, thank you.",
+      "topics": [
+        "respostas",
+        "saudações"
+      ],
+      "explanation_pt": "Resposta típica a uma pergunta sobre o bem-estar."
+    },
+    {
+      "en": "Qual é o seu nome?",
+      "target": "What is your name?",
+      "topics": [
+        "perguntas",
+        "nome"
+      ],
+      "explanation_pt": "Usado para perguntar o nome de alguém."
+    },
+    {
+      "en": "Como foi seu dia?",
+      "target": "How was your day?",
+      "topics": [
+        "perguntas",
+        "dia"
+      ],
+      "explanation_pt": "Pergunta comum para saber sobre o dia de alguém."
+    },
+    {
+      "en": "Eu sou estudante.",
+      "target": "I am a student.",
+      "topics": [
+        "apresentações",
+        "ocupação"
+      ],
+      "explanation_pt": "Usado para informar sobre a ocupação de alguém."
+    },
+    {
+      "en": "Até logo!",
+      "target": "See you later!",
+      "topics": [
+        "despedidas",
+        "saudações"
+      ],
+      "explanation_pt": "Uma forma de se despedir temporariamente."
+    },
+    {
+      "en": "Você gosta de viajar?",
+      "target": "Do you like to travel?",
+      "topics": [
+        "perguntas",
+        "interesses"
+      ],
+      "explanation_pt": "Pergunta sobre os interesses de alguém em viagens."
+    }
+  ]
+}
