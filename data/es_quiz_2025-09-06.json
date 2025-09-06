@@ -1,0 +1,96 @@
+{
+  "theme": "greetings",
+  "lesson_html": "<ul>\n    <li><strong>Hello!</strong> - A common way to greet someone.</li>\n    <li><strong>How are you?</strong> - A friendly way to ask about someone's well-being.</li>\n    <li><strong>Good morning/afternoon/evening!</strong> - Time-specific greetings to show politeness.</li>\n    <li><strong>Nice to meet you!</strong> - Used when you meet someone for the first time.</li>\n    <li><strong>Goodbye!</strong> - A way to say farewell when parting ways.</li>\n</ul>",
+  "items": [
+    {
+      "en": "how are you doing today?",
+      "target": "¿cómo te va hoy?",
+      "topics": [
+        "greetings",
+        "well-being"
+      ],
+      "explanation_en": "This phrase asks about someone's current state."
+    },
+    {
+      "en": "what time is it?",
+      "target": "¿qué hora es?",
+      "topics": [
+        "greetings",
+        "time"
+      ],
+      "explanation_en": "This question inquires about the current time."
+    },
+    {
+      "en": "do you want to hang out?",
+      "target": "¿quieres salir?",
+      "topics": [
+        "greetings",
+        "socializing"
+      ],
+      "explanation_en": "This is an invitation to spend time together."
+    },
+    {
+      "en": "are you enjoying your day?",
+      "target": "¿estás disfrutando tu día?",
+      "topics": [
+        "greetings",
+        "well-being"
+      ],
+      "explanation_en": "This question asks if someone is having a good day."
+    },
+    {
+      "en": "what's your favorite hobby?",
+      "target": "¿cuál es tu pasatiempo favorito?",
+      "topics": [
+        "greetings",
+        "interests"
+      ],
+      "explanation_en": "This question seeks to learn about someone's interests."
+    },
+    {
+      "en": "did you have a good trip?",
+      "target": "¿tuviste un buen viaje?",
+      "topics": [
+        "greetings",
+        "travel"
+      ],
+      "explanation_en": "This question asks about someone's recent travel experience."
+    },
+    {
+      "en": "are you free this weekend?",
+      "target": "¿estás libre este fin de semana?",
+      "topics": [
+        "greetings",
+        "plans"
+      ],
+      "explanation_en": "This question inquires about someone's availability."
+    },
+    {
+      "en": "what are your plans for today?",
+      "target": "¿cuáles son tus planes para hoy?",
+      "topics": [
+        "greetings",
+        "plans"
+      ],
+      "explanation_en": "This question asks about someone's activities for the day."
+    },
+    {
+      "en": "have you seen any good movies lately?",
+      "target": "¿has visto alguna buena película últimamente?",
+      "topics": [
+        "greetings",
+        "entertainment"
+      ],
+      "explanation_en": "This question asks for recent movie recommendations."
+    },
+    {
+      "en": "how do you feel about that?",
+      "target": "¿qué opinas de eso?",
+      "topics": [
+        "greetings",
+        "opinions"
+      ],
+      "explanation_en": "This question asks for someone's opinion on a topic."
+    }
+  ]
+}
