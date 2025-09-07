@@ -1,0 +1,106 @@
+{
+  "theme": "greetings",
+  "lesson_html": "<ul>\n    <li><strong>Hello!</strong> - A common way to greet someone.</li>\n    <li><strong>How are you?</strong> - A friendly way to ask about someone's well-being.</li>\n    <li><strong>Good morning/afternoon/evening!</strong> - Time-specific greetings to use throughout the day.</li>\n    <li><strong>Nice to meet you!</strong> - A polite phrase when meeting someone for the first time.</li>\n    <li><strong>Goodbye!</strong> - A way to say farewell when parting ways.</li>\n</ul>",
+  "items": [
+    {
+      "en": "What time do you usually wake up?",
+      "target": "¿A qué hora sueles despertarte?",
+      "topics": [
+        "daily routine",
+        "questions",
+        "time"
+      ],
+      "explanation_en": "This sentence asks about someone's waking time."
+    },
+    {
+      "en": "Do you have any plans for tonight?",
+      "target": "¿Tienes planes para esta noche?",
+      "topics": [
+        "future",
+        "questions",
+        "evening"
+      ],
+      "explanation_en": "This sentence inquires about evening plans."
+    },
+    {
+      "en": "I hope you are doing well.",
+      "target": "Espero que estés bien.",
+      "topics": [
+        "well-being",
+        "greetings",
+        "present"
+      ],
+      "explanation_en": "This expresses a wish for someone's well-being."
+    },
+    {
+      "en": "What did you eat for lunch?",
+      "target": "¿Qué comiste para el almuerzo?",
+      "topics": [
+        "food",
+        "past",
+        "questions"
+      ],
+      "explanation_en": "This asks about someone's lunch in the past."
+    },
+    {
+      "en": "Are you free this weekend?",
+      "target": "¿Estás libre este fin de semana?",
+      "topics": [
+        "availability",
+        "future",
+        "weekend"
+      ],
+      "explanation_en": "This asks if someone is available over the weekend."
+    },
+    {
+      "en": "I enjoyed our conversation.",
+      "target": "Disfruté nuestra conversación.",
+      "topics": [
+        "past",
+        "social",
+        "communication"
+      ],
+      "explanation_en": "This expresses enjoyment of a past conversation."
+    },
+    {
+      "en": "Let's meet for coffee sometime.",
+      "target": "Vamos a encontrarnos para un café algún día.",
+      "topics": [
+        "future",
+        "social",
+        "invitation"
+      ],
+      "explanation_en": "This suggests meeting for coffee in the future."
+    },
+    {
+      "en": "How do you feel today?",
+      "target": "¿Cómo te sientes hoy?",
+      "topics": [
+        "feelings",
+        "present",
+        "questions"
+      ],
+      "explanation_en": "This asks about someone's feelings today."
+    },
+    {
+      "en": "I look forward to seeing you.",
+      "target": "Espero verte.",
+      "topics": [
+        "future",
+        "anticipation",
+        "greetings"
+      ],
+      "explanation_en": "This expresses anticipation of seeing someone."
+    },
+    {
+      "en": "Have you been busy lately?",
+      "target": "¿Has estado ocupado últimamente?",
+      "topics": [
+        "past",
+        "questions",
+        "busyness"
+      ],
+      "explanation_en": "This asks if someone has been busy recently."
+    }
+  ]
+}
