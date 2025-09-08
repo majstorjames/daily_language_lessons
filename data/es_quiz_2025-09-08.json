@@ -1,0 +1,96 @@
+{
+  "theme": "greetings",
+  "lesson_html": "<ul>\n    <li><strong>Hello!</strong> - A common way to greet someone.</li>\n    <li><strong>How are you?</strong> - A friendly way to ask about someone's well-being.</li>\n    <li><strong>Good morning!</strong> - Used in the morning until around noon.</li>\n    <li><strong>Good afternoon!</strong> - Used from noon until evening.</li>\n    <li><strong>Good evening!</strong> - Used in the evening when meeting someone.</li>\n</ul>",
+  "items": [
+    {
+      "en": "how are you doing today?",
+      "target": "¿cómo te va hoy?",
+      "topics": [
+        "greetings",
+        "well-being"
+      ],
+      "explanation_en": "This sentence asks about someone's current state."
+    },
+    {
+      "en": "what time is it?",
+      "target": "¿qué hora es?",
+      "topics": [
+        "greetings",
+        "time"
+      ],
+      "explanation_en": "This question inquires about the current time."
+    },
+    {
+      "en": "do you have any plans for tonight?",
+      "target": "¿tienes planes para esta noche?",
+      "topics": [
+        "greetings",
+        "plans"
+      ],
+      "explanation_en": "This asks if someone has scheduled activities for the evening."
+    },
+    {
+      "en": "where do you work?",
+      "target": "¿dónde trabajas?",
+      "topics": [
+        "greetings",
+        "work"
+      ],
+      "explanation_en": "This question is about someone's workplace."
+    },
+    {
+      "en": "what did you do last weekend?",
+      "target": "¿qué hiciste el fin de semana pasado?",
+      "topics": [
+        "greetings",
+        "past"
+      ],
+      "explanation_en": "This asks about activities from the previous weekend."
+    },
+    {
+      "en": "are you enjoying your vacation?",
+      "target": "¿estás disfrutando tus vacaciones?",
+      "topics": [
+        "greetings",
+        "vacation"
+      ],
+      "explanation_en": "This question inquires about someone's enjoyment during their holiday."
+    },
+    {
+      "en": "have you seen any good movies lately?",
+      "target": "¿has visto alguna buena película últimamente?",
+      "topics": [
+        "greetings",
+        "movies"
+      ],
+      "explanation_en": "This asks for recommendations on recent films."
+    },
+    {
+      "en": "what are you doing this weekend?",
+      "target": "¿qué vas a hacer este fin de semana?",
+      "topics": [
+        "greetings",
+        "plans"
+      ],
+      "explanation_en": "This question asks about future weekend plans."
+    },
+    {
+      "en": "how was your day?",
+      "target": "¿cómo fue tu día?",
+      "topics": [
+        "greetings",
+        "daily life"
+      ],
+      "explanation_en": "This asks for a summary of someone's day."
+    },
+    {
+      "en": "are you feeling better now?",
+      "target": "¿te sientes mejor ahora?",
+      "topics": [
+        "greetings",
+        "well-being"
+      ],
+      "explanation_en": "This question inquires about someone's health status."
+    }
+  ]
+}
