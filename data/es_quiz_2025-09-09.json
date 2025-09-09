@@ -1,0 +1,106 @@
+{
+  "theme": "greetings",
+  "lesson_html": "<ul>\n    <li><strong>Hello!</strong> - A common way to greet someone.</li>\n    <li><strong>How are you?</strong> - A friendly way to ask about someone's well-being.</li>\n    <li><strong>Good morning/afternoon/evening!</strong> - Time-specific greetings to show politeness.</li>\n    <li><strong>Nice to meet you!</strong> - Used when meeting someone for the first time.</li>\n    <li><strong>Goodbye!</strong> - A way to say farewell when parting ways.</li>\n</ul>",
+  "items": [
+    {
+      "en": "what time do you usually wake up?",
+      "target": "¿a qué hora sueles despertarte?",
+      "topics": [
+        "greetings",
+        "daily routine",
+        "time"
+      ],
+      "explanation_en": "This question asks about someone's waking habits."
+    },
+    {
+      "en": "do you have any plans for tonight?",
+      "target": "¿tienes planes para esta noche?",
+      "topics": [
+        "greetings",
+        "future plans",
+        "evening"
+      ],
+      "explanation_en": "This question inquires about evening plans."
+    },
+    {
+      "en": "how do you feel today?",
+      "target": "¿cómo te sientes hoy?",
+      "topics": [
+        "greetings",
+        "feelings",
+        "today"
+      ],
+      "explanation_en": "This question asks about someone's current feelings."
+    },
+    {
+      "en": "what did you do last weekend?",
+      "target": "¿qué hiciste el fin de semana pasado?",
+      "topics": [
+        "greetings",
+        "past activities",
+        "weekend"
+      ],
+      "explanation_en": "This question asks about past weekend activities."
+    },
+    {
+      "en": "are you enjoying your time here?",
+      "target": "¿estás disfrutando tu tiempo aquí?",
+      "topics": [
+        "greetings",
+        "enjoyment",
+        "current experience"
+      ],
+      "explanation_en": "This question asks if someone is having a good time."
+    },
+    {
+      "en": "do you like this place?",
+      "target": "¿te gusta este lugar?",
+      "topics": [
+        "greetings",
+        "preferences",
+        "location"
+      ],
+      "explanation_en": "This question inquires about someone's opinion on a place."
+    },
+    {
+      "en": "what are you doing this weekend?",
+      "target": "¿qué vas a hacer este fin de semana?",
+      "topics": [
+        "greetings",
+        "future plans",
+        "weekend"
+      ],
+      "explanation_en": "This question asks about future weekend plans."
+    },
+    {
+      "en": "have you been here before?",
+      "target": "¿has estado aquí antes?",
+      "topics": [
+        "greetings",
+        "past experience",
+        "location"
+      ],
+      "explanation_en": "This question asks about previous visits to a place."
+    },
+    {
+      "en": "what's your favorite way to relax?",
+      "target": "¿cuál es tu forma favorita de relajarte?",
+      "topics": [
+        "greetings",
+        "preferences",
+        "relaxation"
+      ],
+      "explanation_en": "This question asks about someone's preferred relaxation methods."
+    },
+    {
+      "en": "are you ready for the meeting?",
+      "target": "¿estás listo para la reunión?",
+      "topics": [
+        "greetings",
+        "preparedness",
+        "work"
+      ],
+      "explanation_en": "This question asks if someone is prepared for a meeting."
+    }
+  ]
+}
