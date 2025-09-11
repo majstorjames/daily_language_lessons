@@ -1,0 +1,88 @@
+{
+  "theme": "Saudações e apresentações",
+  "lesson_html": "<ul>\n    <li><strong>Saudações Comuns:</strong> Use \"Olá\" para cumprimentos informais e \"Bom dia\", \"Boa tarde\" ou \"Boa noite\" para situações mais formais.</li>\n    <li><strong>Apresentando-se:</strong> Diga \"Meu nome é [seu nome]\" para se apresentar.</li>\n    <li><strong>Perguntando o nome:</strong> Pergunte \"Qual é o seu nome?\" para conhecer a outra pessoa.</li>\n    <li><strong>Despedidas:</strong> Use \"Tchau\" ou \"Até logo\" para se despedir de forma amigável.</li>\n</ul>",
+  "items": [
+    {
+      "en": "Olá, como você está?",
+      "target": "Hello, how are you?",
+      "topics": [
+        "saudações",
+        "apresentações"
+      ],
+      "explanation_pt": "Uma saudação comum para perguntar sobre o bem-estar de alguém."
+    },
+    {
+      "en": "Meu nome é Ana.",
+      "target": "My name is Ana.",
+      "topics": [
+        "apresentações"
+      ],
+      "explanation_pt": "Uma forma simples de se apresentar."
+    },
+    {
+      "en": "Prazer em conhecê-lo.",
+      "target": "Nice to meet you.",
+      "topics": [
+        "saudações",
+        "apresentações"
+      ],
+      "explanation_pt": "Usado ao encontrar alguém pela primeira vez."
+    },
+    {
+      "en": "Você vem sempre aqui?",
+      "target": "Do you come here often?",
+      "topics": [
+        "saudações"
+      ],
+      "explanation_pt": "Uma pergunta casual para iniciar uma conversa."
+    },
+    {
+      "en": "Eu sou de São Paulo.",
+      "target": "I am from São Paulo.",
+      "topics": [
+        "apresentações"
+      ],
+      "explanation_pt": "Uma maneira de compartilhar de onde você é."
+    },
+    {
+      "en": "Como foi seu dia?",
+      "target": "How was your day?",
+      "topics": [
+        "saudações"
+      ],
+      "explanation_pt": "Uma pergunta comum para saber sobre o dia de alguém."
+    },
+    {
+      "en": "Nos vemos amanhã.",
+      "target": "See you tomorrow.",
+      "topics": [
+        "saudações"
+      ],
+      "explanation_pt": "Uma despedida que indica um encontro futuro."
+    },
+    {
+      "en": "Você está ocupado agora?",
+      "target": "Are you busy right now?",
+      "topics": [
+        "saudações"
+      ],
+      "explanation_pt": "Uma pergunta para saber se a pessoa pode conversar."
+    },
+    {
+      "en": "Eu gostaria de me apresentar.",
+      "target": "I would like to introduce myself.",
+      "topics": [
+        "apresentações"
+      ],
+      "explanation_pt": "Usado antes de se apresentar formalmente."
+    },
+    {
+      "en": "Tudo bem com você?",
+      "target": "Is everything okay with you?",
+      "topics": [
+        "saudações"
+      ],
+      "explanation_pt": "Uma maneira de perguntar sobre o bem-estar de alguém."
+    }
+  ]
+}
