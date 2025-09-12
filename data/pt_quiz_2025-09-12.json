@@ -1,0 +1,96 @@
+{
+  "theme": "Saudações e apresentações",
+  "lesson_html": "<ul>\n    <li><strong>Saudações Comuns:</strong> Use \"Olá\" ou \"Oi\" para cumprimentar alguém. Para situações mais formais, \"Bom dia\", \"Boa tarde\" ou \"Boa noite\" são apropriados.</li>\n    <li><strong>Apresentando-se:</strong> Diga seu nome dizendo \"Meu nome é [seu nome]\".</li>\n    <li><strong>Perguntando o nome:</strong> Pergunte \"Qual é o seu nome?\" para conhecer a outra pessoa.</li>\n    <li><strong>Despedidas:</strong> Use \"Tchau\" ou \"Até logo\" para se despedir. Em contextos formais, \"Até mais\" é uma boa opção.</li>\n</ul>",
+  "items": [
+    {
+      "en": "Olá, como você está?",
+      "target": "Hello, how are you?",
+      "topics": [
+        "saudações",
+        "apresentações"
+      ],
+      "explanation_pt": "Uma saudação comum para perguntar sobre o bem-estar de alguém."
+    },
+    {
+      "en": "Prazer em conhecê-lo.",
+      "target": "Nice to meet you.",
+      "topics": [
+        "apresentações",
+        "cortesia"
+      ],
+      "explanation_pt": "Usado ao encontrar alguém pela primeira vez."
+    },
+    {
+      "en": "Bom dia! Tudo bem?",
+      "target": "Good morning! Is everything okay?",
+      "topics": [
+        "saudações",
+        "bom dia"
+      ],
+      "explanation_pt": "Uma saudação matinal que também pergunta sobre o estado da pessoa."
+    },
+    {
+      "en": "Como foi seu dia?",
+      "target": "How was your day?",
+      "topics": [
+        "perguntas",
+        "interação"
+      ],
+      "explanation_pt": "Uma pergunta comum para iniciar uma conversa."
+    },
+    {
+      "en": "Você se lembra de mim?",
+      "target": "Do you remember me?",
+      "topics": [
+        "memória",
+        "apresentações"
+      ],
+      "explanation_pt": "Usado quando se quer saber se a outra pessoa reconhece você."
+    },
+    {
+      "en": "Até logo, nos vemos depois.",
+      "target": "See you later, we'll meet again.",
+      "topics": [
+        "despedidas",
+        "saudações"
+      ],
+      "explanation_pt": "Uma forma de se despedir, indicando que se encontrará novamente."
+    },
+    {
+      "en": "Qual é o seu nome?",
+      "target": "What is your name?",
+      "topics": [
+        "perguntas",
+        "apresentações"
+      ],
+      "explanation_pt": "Uma pergunta básica para conhecer alguém."
+    },
+    {
+      "en": "Como você se chama?",
+      "target": "What do you call yourself?",
+      "topics": [
+        "perguntas",
+        "apresentações"
+      ],
+      "explanation_pt": "Outra forma de perguntar o nome de alguém."
+    },
+    {
+      "en": "Estou feliz em vê-lo.",
+      "target": "I am happy to see you.",
+      "topics": [
+        "emoções",
+        "saudações"
+      ],
+      "explanation_pt": "Expressa alegria ao encontrar alguém."
+    },
+    {
+      "en": "Você está bem?",
+      "target": "Are you okay?",
+      "topics": [
+        "perguntas",
+        "saudações"
+      ],
+      "explanation_pt": "Uma pergunta simples para verificar o bem-estar de alguém."
+    }
+  ]
+}

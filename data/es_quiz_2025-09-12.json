@@ -1,0 +1,106 @@
+{
+  "theme": "greetings",
+  "lesson_html": "<ul>\n    <li><strong>Hello!</strong> - A common way to greet someone.</li>\n    <li><strong>How are you?</strong> - A friendly way to ask about someone's well-being.</li>\n    <li><strong>Good morning/afternoon/evening!</strong> - Time-specific greetings to use throughout the day.</li>\n    <li><strong>Nice to meet you!</strong> - A polite phrase when meeting someone for the first time.</li>\n    <li><strong>Goodbye!</strong> - A way to say farewell when parting ways.</li>\n</ul>",
+  "items": [
+    {
+      "en": "What time do you usually wake up?",
+      "target": "¿A qué hora sueles despertarte?",
+      "topics": [
+        "daily routine",
+        "questions",
+        "time"
+      ],
+      "explanation_en": "This sentence asks about someone's waking time."
+    },
+    {
+      "en": "Do you have any siblings?",
+      "target": "¿Tienes hermanos?",
+      "topics": [
+        "family",
+        "questions",
+        "relationships"
+      ],
+      "explanation_en": "This question inquires about the presence of siblings."
+    },
+    {
+      "en": "What did you eat for breakfast?",
+      "target": "¿Qué comiste para el desayuno?",
+      "topics": [
+        "food",
+        "past",
+        "questions"
+      ],
+      "explanation_en": "This sentence asks about breakfast in the past."
+    },
+    {
+      "en": "Are you going to the party tonight?",
+      "target": "¿Vas a la fiesta esta noche?",
+      "topics": [
+        "future",
+        "events",
+        "questions"
+      ],
+      "explanation_en": "This question asks about plans for the evening."
+    },
+    {
+      "en": "I hope you have a good time.",
+      "target": "Espero que te diviertas.",
+      "topics": [
+        "wishes",
+        "future",
+        "positive"
+      ],
+      "explanation_en": "This sentence expresses a hope for someone's enjoyment."
+    },
+    {
+      "en": "What are your hobbies?",
+      "target": "¿Cuáles son tus pasatiempos?",
+      "topics": [
+        "interests",
+        "questions",
+        "leisure"
+      ],
+      "explanation_en": "This question asks about someone's leisure activities."
+    },
+    {
+      "en": "It's a beautiful day today.",
+      "target": "Hoy es un día hermoso.",
+      "topics": [
+        "weather",
+        "present",
+        "observations"
+      ],
+      "explanation_en": "This sentence comments on the current weather."
+    },
+    {
+      "en": "Have you seen any good movies lately?",
+      "target": "¿Has visto alguna buena película últimamente?",
+      "topics": [
+        "entertainment",
+        "past",
+        "questions"
+      ],
+      "explanation_en": "This question asks about recent movie experiences."
+    },
+    {
+      "en": "What time does the store open?",
+      "target": "¿A qué hora abre la tienda?",
+      "topics": [
+        "shopping",
+        "time",
+        "questions"
+      ],
+      "explanation_en": "This question inquires about the store's opening time."
+    },
+    {
+      "en": "Let's meet for coffee sometime.",
+      "target": "Vamos a encontrarnos para un café algún día.",
+      "topics": [
+        "future",
+        "plans",
+        "social"
+      ],
+      "explanation_en": "This sentence suggests a future meeting for coffee."
+    }
+  ]
+}
