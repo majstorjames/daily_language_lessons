@@ -1,0 +1,96 @@
+{
+  "theme": "greetings",
+  "lesson_html": "<ul>\n    <li><strong>Hello!</strong> - A common way to greet someone.</li>\n    <li><strong>How are you?</strong> - A friendly way to ask about someone's well-being.</li>\n    <li><strong>Good morning!</strong> - Used in the morning until around noon.</li>\n    <li><strong>Good afternoon!</strong> - Used from noon until around 6 PM.</li>\n    <li><strong>Good evening!</strong> - Used after 6 PM to greet someone.</li>\n</ul>",
+  "items": [
+    {
+      "en": "what time do you usually wake up?",
+      "target": "¿a qué hora sueles despertarte?",
+      "topics": [
+        "daily routine",
+        "questions"
+      ],
+      "explanation_en": "This question asks about someone's waking habits."
+    },
+    {
+      "en": "do you have any pets?",
+      "target": "¿tienes mascotas?",
+      "topics": [
+        "pets",
+        "questions"
+      ],
+      "explanation_en": "This question inquires about pet ownership."
+    },
+    {
+      "en": "what is your favorite food?",
+      "target": "¿cuál es tu comida favorita?",
+      "topics": [
+        "food",
+        "preferences"
+      ],
+      "explanation_en": "This question asks for someone's food preference."
+    },
+    {
+      "en": "where do you like to go on vacation?",
+      "target": "¿dónde te gusta ir de vacaciones?",
+      "topics": [
+        "travel",
+        "preferences"
+      ],
+      "explanation_en": "This question asks about vacation destinations."
+    },
+    {
+      "en": "did you enjoy the movie?",
+      "target": "¿te gustó la película?",
+      "topics": [
+        "movies",
+        "past"
+      ],
+      "explanation_en": "This question asks for someone's opinion on a movie they watched."
+    },
+    {
+      "en": "will you join us for dinner?",
+      "target": "¿te unirás a nosotros para cenar?",
+      "topics": [
+        "dinner",
+        "future"
+      ],
+      "explanation_en": "This question invites someone to dinner."
+    },
+    {
+      "en": "how do you spend your free time?",
+      "target": "¿cómo pasas tu tiempo libre?",
+      "topics": [
+        "leisure",
+        "questions"
+      ],
+      "explanation_en": "This question asks about leisure activities."
+    },
+    {
+      "en": "what kind of music do you like?",
+      "target": "¿qué tipo de música te gusta?",
+      "topics": [
+        "music",
+        "preferences"
+      ],
+      "explanation_en": "This question inquires about musical preferences."
+    },
+    {
+      "en": "do you prefer coffee or tea?",
+      "target": "¿prefieres café o té?",
+      "topics": [
+        "drinks",
+        "preferences"
+      ],
+      "explanation_en": "This question asks for a preference between two beverages."
+    },
+    {
+      "en": "have you traveled to another country?",
+      "target": "¿has viajado a otro país?",
+      "topics": [
+        "travel",
+        "past"
+      ],
+      "explanation_en": "This question asks about international travel experience."
+    }
+  ]
+}
