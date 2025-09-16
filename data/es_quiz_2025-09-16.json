@@ -1,0 +1,96 @@
+{
+  "theme": "greetings",
+  "lesson_html": "<ul>\n    <li><strong>Hello!</strong> - A common way to greet someone.</li>\n    <li><strong>How are you?</strong> - A friendly way to ask about someone's well-being.</li>\n    <li><strong>Good morning/afternoon/evening!</strong> - Time-specific greetings to show politeness.</li>\n    <li><strong>Nice to meet you!</strong> - Used when meeting someone for the first time.</li>\n    <li><strong>Goodbye!</strong> - A polite way to say farewell.</li>\n</ul>",
+  "items": [
+    {
+      "en": "good morning!",
+      "target": "¡buenos días!",
+      "topics": [
+        "greetings",
+        "morning"
+      ],
+      "explanation_en": "A common way to greet someone in the morning."
+    },
+    {
+      "en": "good evening!",
+      "target": "¡buenas tardes!",
+      "topics": [
+        "greetings",
+        "evening"
+      ],
+      "explanation_en": "A standard greeting used in the evening."
+    },
+    {
+      "en": "how's it going?",
+      "target": "¿cómo va todo?",
+      "topics": [
+        "greetings",
+        "casual"
+      ],
+      "explanation_en": "An informal way to ask someone how they are doing."
+    },
+    {
+      "en": "what's up?",
+      "target": "¿qué pasa?",
+      "topics": [
+        "greetings",
+        "casual"
+      ],
+      "explanation_en": "A casual greeting to inquire about someone's situation."
+    },
+    {
+      "en": "nice to see you again!",
+      "target": "¡qué bueno verte de nuevo!",
+      "topics": [
+        "greetings",
+        "reunion"
+      ],
+      "explanation_en": "A friendly way to express happiness at seeing someone again."
+    },
+    {
+      "en": "how have you been?",
+      "target": "¿cómo has estado?",
+      "topics": [
+        "greetings",
+        "inquiry"
+      ],
+      "explanation_en": "A way to ask someone about their well-being since you last met."
+    },
+    {
+      "en": "take care!",
+      "target": "¡cuídate!",
+      "topics": [
+        "greetings",
+        "farewell"
+      ],
+      "explanation_en": "A friendly way to say goodbye and wish someone well."
+    },
+    {
+      "en": "long time no see!",
+      "target": "¡cuánto tiempo sin verte!",
+      "topics": [
+        "greetings",
+        "reunion"
+      ],
+      "explanation_en": "A phrase used when you haven't seen someone in a while."
+    },
+    {
+      "en": "are you doing well?",
+      "target": "¿estás bien?",
+      "topics": [
+        "greetings",
+        "inquiry"
+      ],
+      "explanation_en": "A straightforward way to ask about someone's well-being."
+    },
+    {
+      "en": "have you been busy?",
+      "target": "¿has estado ocupado?",
+      "topics": [
+        "greetings",
+        "inquiry"
+      ],
+      "explanation_en": "A way to ask someone if they have had a lot to do recently."
+    }
+  ]
+}
