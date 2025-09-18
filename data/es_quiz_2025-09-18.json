@@ -1,0 +1,106 @@
+{
+  "theme": "greetings",
+  "lesson_html": "<ul>\n    <li><strong>Hello!</strong> - A common way to greet someone.</li>\n    <li><strong>How are you?</strong> - A friendly way to ask about someone's well-being.</li>\n    <li><strong>Good morning/afternoon/evening!</strong> - Time-specific greetings to show politeness.</li>\n    <li><strong>Nice to meet you!</strong> - Used when meeting someone for the first time.</li>\n    <li><strong>Goodbye!</strong> - A way to say farewell when parting ways.</li>\n</ul>",
+  "items": [
+    {
+      "en": "what time is it?",
+      "target": "¿qué hora es?",
+      "topics": [
+        "time",
+        "questions",
+        "basic"
+      ],
+      "explanation_en": "This question asks for the current time."
+    },
+    {
+      "en": "do you have any siblings?",
+      "target": "¿tienes hermanos?",
+      "topics": [
+        "family",
+        "questions",
+        "basic"
+      ],
+      "explanation_en": "This question inquires about brothers or sisters."
+    },
+    {
+      "en": "where do you live?",
+      "target": "¿dónde vives?",
+      "topics": [
+        "location",
+        "questions",
+        "basic"
+      ],
+      "explanation_en": "This question asks about someone's place of residence."
+    },
+    {
+      "en": "what is your favorite food?",
+      "target": "¿cuál es tu comida favorita?",
+      "topics": [
+        "food",
+        "preferences",
+        "basic"
+      ],
+      "explanation_en": "This question asks about a person's preferred food."
+    },
+    {
+      "en": "are you enjoying your vacation?",
+      "target": "¿estás disfrutando tus vacaciones?",
+      "topics": [
+        "travel",
+        "questions",
+        "basic"
+      ],
+      "explanation_en": "This question asks if someone is having a good time on vacation."
+    },
+    {
+      "en": "what did you do last weekend?",
+      "target": "¿qué hiciste el fin de semana pasado?",
+      "topics": [
+        "past",
+        "weekend",
+        "questions"
+      ],
+      "explanation_en": "This question asks about activities from the previous weekend."
+    },
+    {
+      "en": "will you join us for dinner?",
+      "target": "¿te unirás a nosotros para cenar?",
+      "topics": [
+        "dinner",
+        "invitations",
+        "future"
+      ],
+      "explanation_en": "This question invites someone to have dinner together."
+    },
+    {
+      "en": "how do you like your coffee?",
+      "target": "¿cómo te gusta el café?",
+      "topics": [
+        "drinks",
+        "preferences",
+        "basic"
+      ],
+      "explanation_en": "This question asks about someone's coffee preference."
+    },
+    {
+      "en": "what are your hobbies?",
+      "target": "¿cuáles son tus pasatiempos?",
+      "topics": [
+        "hobbies",
+        "questions",
+        "basic"
+      ],
+      "explanation_en": "This question inquires about someone's leisure activities."
+    },
+    {
+      "en": "are you ready for the meeting?",
+      "target": "¿estás listo para la reunión?",
+      "topics": [
+        "meetings",
+        "questions",
+        "basic"
+      ],
+      "explanation_en": "This question asks if someone is prepared for a meeting."
+    }
+  ]
+}
