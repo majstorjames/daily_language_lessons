@@ -1,0 +1,96 @@
+{
+  "theme": "greetings",
+  "lesson_html": "<ul>\n    <li><strong>Hello!</strong> - A common way to greet someone.</li>\n    <li><strong>How are you?</strong> - A friendly question to ask about someone's well-being.</li>\n    <li><strong>Good morning!</strong> - Used in the morning to greet someone.</li>\n    <li><strong>Goodbye!</strong> - A way to say farewell when leaving.</li>\n    <li><strong>Nice to meet you!</strong> - A polite phrase when meeting someone for the first time.</li>\n</ul>",
+  "items": [
+    {
+      "en": "how have you been?",
+      "target": "¿cómo has estado?",
+      "topics": [
+        "greetings",
+        "well-being"
+      ],
+      "explanation_en": "This question asks about someone's well-being over a period of time."
+    },
+    {
+      "en": "what time is it?",
+      "target": "¿qué hora es?",
+      "topics": [
+        "greetings",
+        "time"
+      ],
+      "explanation_en": "This is a common question to inquire about the current time."
+    },
+    {
+      "en": "do you have any plans for today?",
+      "target": "¿tienes planes para hoy?",
+      "topics": [
+        "greetings",
+        "plans"
+      ],
+      "explanation_en": "This question asks if someone has scheduled activities for the day."
+    },
+    {
+      "en": "are you enjoying your day?",
+      "target": "¿estás disfrutando tu día?",
+      "topics": [
+        "greetings",
+        "enjoyment"
+      ],
+      "explanation_en": "This question inquires about someone's enjoyment of their current day."
+    },
+    {
+      "en": "what did you do yesterday?",
+      "target": "¿qué hiciste ayer?",
+      "topics": [
+        "greetings",
+        "past"
+      ],
+      "explanation_en": "This question asks about activities from the previous day."
+    },
+    {
+      "en": "will you join us later?",
+      "target": "¿te unirás a nosotros más tarde?",
+      "topics": [
+        "greetings",
+        "future"
+      ],
+      "explanation_en": "This question invites someone to join a group at a later time."
+    },
+    {
+      "en": "how is your family?",
+      "target": "¿cómo está tu familia?",
+      "topics": [
+        "greetings",
+        "family"
+      ],
+      "explanation_en": "This question inquires about the well-being of someone's family."
+    },
+    {
+      "en": "have you eaten yet?",
+      "target": "¿ya has comido?",
+      "topics": [
+        "greetings",
+        "food"
+      ],
+      "explanation_en": "This question asks if someone has had a meal."
+    },
+    {
+      "en": "what's new with you?",
+      "target": "¿qué hay de nuevo contigo?",
+      "topics": [
+        "greetings",
+        "updates"
+      ],
+      "explanation_en": "This question asks for updates or new information about someone."
+    },
+    {
+      "en": "are you feeling okay?",
+      "target": "¿te sientes bien?",
+      "topics": [
+        "greetings",
+        "health"
+      ],
+      "explanation_en": "This question checks on someone's health or well-being."
+    }
+  ]
+}
