@@ -1,0 +1,96 @@
+{
+  "theme": "greetings",
+  "lesson_html": "<ul>\n    <li><strong>Hello!</strong> - A common way to greet someone.</li>\n    <li><strong>How are you?</strong> - A friendly way to ask about someone's well-being.</li>\n    <li><strong>Good morning/afternoon/evening!</strong> - Time-specific greetings to show politeness.</li>\n    <li><strong>Nice to meet you!</strong> - Used when you meet someone for the first time.</li>\n    <li><strong>Goodbye!</strong> - A way to say farewell when parting.</li>\n</ul>",
+  "items": [
+    {
+      "en": "How do you do?",
+      "target": "¿Cómo está usted?",
+      "topics": [
+        "greetings",
+        "formal"
+      ],
+      "explanation_en": "A formal way to ask someone about their well-being."
+    },
+    {
+      "en": "What time is it?",
+      "target": "¿Qué hora es?",
+      "topics": [
+        "greetings",
+        "time"
+      ],
+      "explanation_en": "A common question to initiate conversation."
+    },
+    {
+      "en": "I hope you are well.",
+      "target": "Espero que estés bien.",
+      "topics": [
+        "greetings",
+        "well-being"
+      ],
+      "explanation_en": "A friendly expression of concern for someone's health."
+    },
+    {
+      "en": "Have you eaten yet?",
+      "target": "¿Ya has comido?",
+      "topics": [
+        "greetings",
+        "food"
+      ],
+      "explanation_en": "A casual inquiry often used among friends."
+    },
+    {
+      "en": "What brings you here?",
+      "target": "¿Qué te trae aquí?",
+      "topics": [
+        "greetings",
+        "conversation"
+      ],
+      "explanation_en": "A way to ask someone about their purpose for being somewhere."
+    },
+    {
+      "en": "It's a pleasure to meet you.",
+      "target": "Es un placer conocerte.",
+      "topics": [
+        "greetings",
+        "meeting"
+      ],
+      "explanation_en": "A polite expression used when meeting someone for the first time."
+    },
+    {
+      "en": "Are you enjoying your stay?",
+      "target": "¿Estás disfrutando tu estancia?",
+      "topics": [
+        "greetings",
+        "hospitality"
+      ],
+      "explanation_en": "A question to check if someone is having a good time."
+    },
+    {
+      "en": "What are your hobbies?",
+      "target": "¿Cuáles son tus pasatiempos?",
+      "topics": [
+        "greetings",
+        "interests"
+      ],
+      "explanation_en": "A way to learn more about someone's interests."
+    },
+    {
+      "en": "Do you have any plans for tonight?",
+      "target": "¿Tienes planes para esta noche?",
+      "topics": [
+        "greetings",
+        "plans"
+      ],
+      "explanation_en": "A casual question to find out about someone's evening."
+    },
+    {
+      "en": "How's everything going?",
+      "target": "¿Cómo va todo?",
+      "topics": [
+        "greetings",
+        "well-being"
+      ],
+      "explanation_en": "A friendly way to ask about someone's life."
+    }
+  ]
+}

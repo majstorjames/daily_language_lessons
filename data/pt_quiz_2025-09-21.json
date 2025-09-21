@@ -1,0 +1,88 @@
+{
+  "theme": "Saudações e apresentações",
+  "lesson_html": "<ul>\n    <li><strong>Olá!</strong> - Usado para cumprimentar alguém de forma informal.</li>\n    <li><strong>Bom dia!</strong> - Usado pela manhã, até o meio-dia.</li>\n    <li><strong>Boa tarde!</strong> - Usado entre o meio-dia e o início da noite.</li>\n    <li><strong>Boa noite!</strong> - Usado ao anoitecer ou ao se despedir à noite.</li>\n    <li><strong>Meu nome é...</strong> - Forma de se apresentar, seguida do seu nome.</li>\n</ul>",
+  "items": [
+    {
+      "en": "Olá, como você está?",
+      "target": "Hello, how are you?",
+      "topics": [
+        "saudações",
+        "apresentações"
+      ],
+      "explanation_pt": "Uma saudação comum para perguntar sobre o bem-estar."
+    },
+    {
+      "en": "Meu nome é Maria.",
+      "target": "My name is Maria.",
+      "topics": [
+        "apresentações"
+      ],
+      "explanation_pt": "Uma forma simples de se apresentar."
+    },
+    {
+      "en": "Prazer em conhecê-lo.",
+      "target": "Nice to meet you.",
+      "topics": [
+        "saudações",
+        "apresentações"
+      ],
+      "explanation_pt": "Usado ao conhecer alguém pela primeira vez."
+    },
+    {
+      "en": "Você vem sempre aqui?",
+      "target": "Do you come here often?",
+      "topics": [
+        "saudações"
+      ],
+      "explanation_pt": "Uma pergunta comum em conversas informais."
+    },
+    {
+      "en": "Como foi seu dia?",
+      "target": "How was your day?",
+      "topics": [
+        "saudações"
+      ],
+      "explanation_pt": "Uma maneira de perguntar sobre o dia de alguém."
+    },
+    {
+      "en": "Eu sou de São Paulo.",
+      "target": "I am from São Paulo.",
+      "topics": [
+        "apresentações"
+      ],
+      "explanation_pt": "Usado para informar de onde você é."
+    },
+    {
+      "en": "Até logo, nos vemos depois.",
+      "target": "See you later.",
+      "topics": [
+        "saudações"
+      ],
+      "explanation_pt": "Uma despedida informal."
+    },
+    {
+      "en": "Você gostaria de se juntar a nós?",
+      "target": "Would you like to join us?",
+      "topics": [
+        "apresentações"
+      ],
+      "explanation_pt": "Um convite para alguém participar de um grupo."
+    },
+    {
+      "en": "Eu estive aqui antes.",
+      "target": "I have been here before.",
+      "topics": [
+        "apresentações"
+      ],
+      "explanation_pt": "Usado para indicar experiência anterior em um lugar."
+    },
+    {
+      "en": "Amanhã será um bom dia.",
+      "target": "Tomorrow will be a good day.",
+      "topics": [
+        "saudações"
+      ],
+      "explanation_pt": "Uma afirmação positiva sobre o futuro."
+    }
+  ]
+}
