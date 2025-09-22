@@ -1,0 +1,106 @@
+{
+  "theme": "greetings",
+  "lesson_html": "<ul>\n    <li><strong>Hello!</strong> - A common way to greet someone.</li>\n    <li><strong>How are you?</strong> - A friendly way to ask about someone's well-being.</li>\n    <li><strong>Good morning/afternoon/evening!</strong> - Time-specific greetings to show politeness.</li>\n    <li><strong>Nice to meet you!</strong> - Used when meeting someone for the first time.</li>\n    <li><strong>Goodbye!</strong> - A way to say farewell when parting ways.</li>\n</ul>",
+  "items": [
+    {
+      "en": "What time is it?",
+      "target": "¿Qué hora es?",
+      "topics": [
+        "time",
+        "questions",
+        "greetings"
+      ],
+      "explanation_en": "This question asks for the current time."
+    },
+    {
+      "en": "Do you have any plans for today?",
+      "target": "¿Tienes planes para hoy?",
+      "topics": [
+        "plans",
+        "questions",
+        "greetings"
+      ],
+      "explanation_en": "This asks if someone has activities scheduled for the day."
+    },
+    {
+      "en": "I hope you are doing well.",
+      "target": "Espero que estés bien.",
+      "topics": [
+        "well-being",
+        "greetings",
+        "wishes"
+      ],
+      "explanation_en": "This expresses a wish for someone's good health."
+    },
+    {
+      "en": "What did you do last weekend?",
+      "target": "¿Qué hiciste el fin de semana pasado?",
+      "topics": [
+        "weekend",
+        "past",
+        "questions"
+      ],
+      "explanation_en": "This inquires about activities from the previous weekend."
+    },
+    {
+      "en": "Are you enjoying your vacation?",
+      "target": "¿Estás disfrutando de tus vacaciones?",
+      "topics": [
+        "vacation",
+        "questions",
+        "greetings"
+      ],
+      "explanation_en": "This asks if someone is having a good time during their vacation."
+    },
+    {
+      "en": "I look forward to seeing you soon.",
+      "target": "Espero verte pronto.",
+      "topics": [
+        "future",
+        "greetings",
+        "wishes"
+      ],
+      "explanation_en": "This expresses anticipation for a future meeting."
+    },
+    {
+      "en": "What are you doing this weekend?",
+      "target": "¿Qué vas a hacer este fin de semana?",
+      "topics": [
+        "weekend",
+        "future",
+        "questions"
+      ],
+      "explanation_en": "This asks about plans for the upcoming weekend."
+    },
+    {
+      "en": "It's been a while since we last met.",
+      "target": "Ha pasado un tiempo desde la última vez que nos vimos.",
+      "topics": [
+        "past",
+        "greetings",
+        "meetings"
+      ],
+      "explanation_en": "This acknowledges the time since the last meeting."
+    },
+    {
+      "en": "Are you ready for the meeting?",
+      "target": "¿Estás listo para la reunión?",
+      "topics": [
+        "meeting",
+        "questions",
+        "greetings"
+      ],
+      "explanation_en": "This asks if someone is prepared for an upcoming meeting."
+    },
+    {
+      "en": "I hope you had a good trip.",
+      "target": "Espero que tuviste un buen viaje.",
+      "topics": [
+        "travel",
+        "past",
+        "wishes"
+      ],
+      "explanation_en": "This expresses hope that someone enjoyed their recent travel."
+    }
+  ]
+}

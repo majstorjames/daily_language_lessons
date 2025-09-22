@@ -1,0 +1,94 @@
+{
+  "theme": "Saudações e apresentações",
+  "lesson_html": "<ul>\n    <li><strong>Saudações Comuns:</strong> Use \"Olá\" para cumprimentos informais e \"Bom dia\", \"Boa tarde\" ou \"Boa noite\" para situações mais formais.</li>\n    <li><strong>Apresentando-se:</strong> Diga seu nome: \"Meu nome é [seu nome].\"</li>\n    <li><strong>Perguntando o nome do outro:</strong> Pergunte: \"Qual é o seu nome?\"</li>\n    <li><strong>Despedidas:</strong> Use \"Tchau\" para despedidas informais e \"Até logo\" ou \"Até mais\" para situações mais formais.</li>\n</ul>",
+  "items": [
+    {
+      "en": "Olá, como você está?",
+      "target": "Hello, how are you?",
+      "topics": [
+        "saudações",
+        "apresentações"
+      ],
+      "explanation_pt": "Uma saudação comum para perguntar sobre o bem-estar de alguém."
+    },
+    {
+      "en": "Meu nome é Maria.",
+      "target": "My name is Maria.",
+      "topics": [
+        "apresentações"
+      ],
+      "explanation_pt": "Uma frase simples para se apresentar."
+    },
+    {
+      "en": "Prazer em conhecê-lo.",
+      "target": "Nice to meet you.",
+      "topics": [
+        "apresentações",
+        "saudações"
+      ],
+      "explanation_pt": "Usada ao encontrar alguém pela primeira vez."
+    },
+    {
+      "en": "Você vem sempre aqui?",
+      "target": "Do you come here often?",
+      "topics": [
+        "conversa",
+        "saudações"
+      ],
+      "explanation_pt": "Uma pergunta para iniciar uma conversa."
+    },
+    {
+      "en": "Como foi seu dia?",
+      "target": "How was your day?",
+      "topics": [
+        "conversa",
+        "saudações"
+      ],
+      "explanation_pt": "Uma maneira de perguntar sobre o dia de alguém."
+    },
+    {
+      "en": "Até logo, nos vemos depois.",
+      "target": "See you later.",
+      "topics": [
+        "despedidas",
+        "saudações"
+      ],
+      "explanation_pt": "Uma forma de se despedir temporariamente."
+    },
+    {
+      "en": "Você está ocupado agora?",
+      "target": "Are you busy now?",
+      "topics": [
+        "conversa",
+        "saudações"
+      ],
+      "explanation_pt": "Pergunta para saber se a pessoa pode conversar."
+    },
+    {
+      "en": "Qual é o seu nome?",
+      "target": "What is your name?",
+      "topics": [
+        "apresentações",
+        "conversa"
+      ],
+      "explanation_pt": "Uma pergunta básica para conhecer alguém."
+    },
+    {
+      "en": "Eu sou de São Paulo.",
+      "target": "I am from São Paulo.",
+      "topics": [
+        "apresentações"
+      ],
+      "explanation_pt": "Usada para informar a origem de alguém."
+    },
+    {
+      "en": "Você gostaria de se apresentar?",
+      "target": "Would you like to introduce yourself?",
+      "topics": [
+        "apresentações",
+        "conversa"
+      ],
+      "explanation_pt": "Uma pergunta para incentivar alguém a se apresentar."
+    }
+  ]
+}
