@@ -1,0 +1,106 @@
+{
+  "theme": "greetings",
+  "lesson_html": "<ul>\n    <li><strong>Hello!</strong> - A common way to greet someone.</li>\n    <li><strong>How are you?</strong> - A friendly way to ask about someone's well-being.</li>\n    <li><strong>Good morning!</strong> - Used in the morning until around noon.</li>\n    <li><strong>Good afternoon!</strong> - Used from noon until around 6 PM.</li>\n    <li><strong>Good evening!</strong> - Used after 6 PM to greet someone.</li>\n</ul>",
+  "items": [
+    {
+      "en": "How have you been lately?",
+      "target": "¿Cómo has estado últimamente?",
+      "topics": [
+        "greetings",
+        "well-being",
+        "conversation"
+      ],
+      "explanation_en": "This question asks about someone's recent state."
+    },
+    {
+      "en": "What did you do yesterday?",
+      "target": "¿Qué hiciste ayer?",
+      "topics": [
+        "greetings",
+        "past",
+        "conversation"
+      ],
+      "explanation_en": "This question inquires about someone's activities from the previous day."
+    },
+    {
+      "en": "Are you enjoying your time here?",
+      "target": "¿Estás disfrutando tu tiempo aquí?",
+      "topics": [
+        "greetings",
+        "present",
+        "experience"
+      ],
+      "explanation_en": "This question asks if someone is having a good time."
+    },
+    {
+      "en": "Do you have any plans for the weekend?",
+      "target": "¿Tienes planes para el fin de semana?",
+      "topics": [
+        "greetings",
+        "future",
+        "plans"
+      ],
+      "explanation_en": "This question is about someone's upcoming weekend activities."
+    },
+    {
+      "en": "It's been a while since we last met.",
+      "target": "Ha pasado un tiempo desde que nos vimos por última vez.",
+      "topics": [
+        "greetings",
+        "past",
+        "reunion"
+      ],
+      "explanation_en": "This statement reflects on the time since the last meeting."
+    },
+    {
+      "en": "I hope you are doing well.",
+      "target": "Espero que estés bien.",
+      "topics": [
+        "greetings",
+        "well-being",
+        "care"
+      ],
+      "explanation_en": "This expresses a wish for someone's well-being."
+    },
+    {
+      "en": "What time do you usually wake up?",
+      "target": "¿A qué hora sueles despertarte?",
+      "topics": [
+        "greetings",
+        "daily routine",
+        "conversation"
+      ],
+      "explanation_en": "This question asks about someone's waking habits."
+    },
+    {
+      "en": "Have you seen any good movies lately?",
+      "target": "¿Has visto alguna buena película últimamente?",
+      "topics": [
+        "greetings",
+        "entertainment",
+        "conversation"
+      ],
+      "explanation_en": "This question inquires about recent movie experiences."
+    },
+    {
+      "en": "Are you ready for the meeting?",
+      "target": "¿Estás listo para la reunión?",
+      "topics": [
+        "greetings",
+        "future",
+        "work"
+      ],
+      "explanation_en": "This question checks someone's readiness for an upcoming meeting."
+    },
+    {
+      "en": "What do you like to do in your free time?",
+      "target": "¿Qué te gusta hacer en tu tiempo libre?",
+      "topics": [
+        "greetings",
+        "hobbies",
+        "conversation"
+      ],
+      "explanation_en": "This question asks about someone's leisure activities."
+    }
+  ]
+}
