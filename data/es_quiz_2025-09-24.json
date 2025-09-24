@@ -1,0 +1,96 @@
+{
+  "theme": "greetings",
+  "lesson_html": "<ul>\n    <li><strong>Hello!</strong> - A common way to greet someone.</li>\n    <li><strong>How are you?</strong> - A friendly way to ask about someone's well-being.</li>\n    <li><strong>Good morning/afternoon/evening!</strong> - Time-specific greetings to use throughout the day.</li>\n    <li><strong>Nice to meet you!</strong> - A polite phrase when meeting someone for the first time.</li>\n    <li><strong>Goodbye!</strong> - A way to say farewell when parting ways.</li>\n</ul>",
+  "items": [
+    {
+      "en": "how do you do?",
+      "target": "¿cómo está usted?",
+      "topics": [
+        "greetings",
+        "formal"
+      ],
+      "explanation_en": "A formal way to ask someone about their well-being."
+    },
+    {
+      "en": "what time is it?",
+      "target": "¿qué hora es?",
+      "topics": [
+        "greetings",
+        "time"
+      ],
+      "explanation_en": "A common question to inquire about the current time."
+    },
+    {
+      "en": "are you enjoying your day?",
+      "target": "¿estás disfrutando tu día?",
+      "topics": [
+        "greetings",
+        "daily life"
+      ],
+      "explanation_en": "A friendly way to ask someone about their day."
+    },
+    {
+      "en": "do you have any plans for tonight?",
+      "target": "¿tienes planes para esta noche?",
+      "topics": [
+        "greetings",
+        "evening plans"
+      ],
+      "explanation_en": "A casual question about someone's evening schedule."
+    },
+    {
+      "en": "what's your favorite hobby?",
+      "target": "¿cuál es tu pasatiempo favorito?",
+      "topics": [
+        "greetings",
+        "hobbies"
+      ],
+      "explanation_en": "A question to learn about someone's interests."
+    },
+    {
+      "en": "how was your day?",
+      "target": "¿cómo fue tu día?",
+      "topics": [
+        "greetings",
+        "daily life"
+      ],
+      "explanation_en": "A way to ask someone about their day after it has ended."
+    },
+    {
+      "en": "are you feeling okay?",
+      "target": "¿te sientes bien?",
+      "topics": [
+        "greetings",
+        "health"
+      ],
+      "explanation_en": "A caring question about someone's well-being."
+    },
+    {
+      "en": "what did you do last weekend?",
+      "target": "¿qué hiciste el fin de semana pasado?",
+      "topics": [
+        "greetings",
+        "past activities"
+      ],
+      "explanation_en": "A question to inquire about someone's past weekend."
+    },
+    {
+      "en": "will you join us for lunch?",
+      "target": "¿te unirás a nosotros para el almuerzo?",
+      "topics": [
+        "greetings",
+        "meals"
+      ],
+      "explanation_en": "An invitation to share a meal together."
+    },
+    {
+      "en": "do you want to go for a walk?",
+      "target": "¿quieres ir a dar un paseo?",
+      "topics": [
+        "greetings",
+        "activities"
+      ],
+      "explanation_en": "A friendly suggestion to spend time outdoors."
+    }
+  ]
+}

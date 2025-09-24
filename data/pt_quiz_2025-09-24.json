@@ -1,0 +1,96 @@
+{
+  "theme": "Saudações e apresentações",
+  "lesson_html": "<ul>\n    <li><strong>Olá!</strong> - Usado para cumprimentar alguém de forma informal.</li>\n    <li><strong>Bom dia!</strong> - Usado pela manhã, até o meio-dia.</li>\n    <li><strong>Boa tarde!</strong> - Usado após o meio-dia até o início da noite.</li>\n    <li><strong>Boa noite!</strong> - Usado ao anoitecer ou ao se despedir à noite.</li>\n    <li><strong>Meu nome é...</strong> - Usado para se apresentar.</li>\n</ul>",
+  "items": [
+    {
+      "en": "Olá, como você está?",
+      "target": "Hello, how are you?",
+      "topics": [
+        "saudações",
+        "apresentações"
+      ],
+      "explanation_pt": "Uma saudação comum para perguntar sobre o bem-estar."
+    },
+    {
+      "en": "Prazer em conhecê-lo.",
+      "target": "Nice to meet you.",
+      "topics": [
+        "apresentações",
+        "cortesia"
+      ],
+      "explanation_pt": "Usado ao encontrar alguém pela primeira vez."
+    },
+    {
+      "en": "Bom dia, tudo bem?",
+      "target": "Good morning, is everything okay?",
+      "topics": [
+        "saudações",
+        "manhã"
+      ],
+      "explanation_pt": "Uma saudação matinal que demonstra preocupação."
+    },
+    {
+      "en": "Como foi seu dia?",
+      "target": "How was your day?",
+      "topics": [
+        "conversa",
+        "interesse"
+      ],
+      "explanation_pt": "Pergunta comum para saber sobre o dia de alguém."
+    },
+    {
+      "en": "Boa tarde, você está ocupado?",
+      "target": "Good afternoon, are you busy?",
+      "topics": [
+        "saudações",
+        "tarde"
+      ],
+      "explanation_pt": "Uma saudação à tarde que também pergunta sobre disponibilidade."
+    },
+    {
+      "en": "Até logo, nos vemos depois.",
+      "target": "See you later, we'll meet again.",
+      "topics": [
+        "despedidas",
+        "futuro"
+      ],
+      "explanation_pt": "Uma forma de se despedir, indicando um encontro futuro."
+    },
+    {
+      "en": "Oi, meu nome é Maria.",
+      "target": "Hi, my name is Maria.",
+      "topics": [
+        "apresentações",
+        "nome"
+      ],
+      "explanation_pt": "Uma introdução pessoal ao se apresentar."
+    },
+    {
+      "en": "Você gostaria de se juntar a nós?",
+      "target": "Would you like to join us?",
+      "topics": [
+        "convite",
+        "social"
+      ],
+      "explanation_pt": "Um convite para que alguém participe de um grupo."
+    },
+    {
+      "en": "Como você se chama?",
+      "target": "What is your name?",
+      "topics": [
+        "apresentações",
+        "perguntas"
+      ],
+      "explanation_pt": "Pergunta usada para saber o nome de alguém."
+    },
+    {
+      "en": "Foi bom te ver hoje.",
+      "target": "It was nice to see you today.",
+      "topics": [
+        "despedidas",
+        "encontro"
+      ],
+      "explanation_pt": "Uma expressão de satisfação após um encontro."
+    }
+  ]
+}
