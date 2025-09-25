@@ -1,0 +1,96 @@
+{
+  "theme": "Saudações e apresentações",
+  "lesson_html": "<ul>\n    <li><strong>Saudações Comuns:</strong> Use \"Olá\" para cumprimentos informais e \"Bom dia\", \"Boa tarde\" ou \"Boa noite\" para situações mais formais.</li>\n    <li><strong>Apresentando-se:</strong> Comece com \"Meu nome é [seu nome]\" ou \"Eu sou [seu nome]\".</li>\n    <li><strong>Perguntando o nome:</strong> Após se apresentar, pergunte \"E você, como se chama?\"</li>\n    <li><strong>Despedidas:</strong> Para se despedir, use \"Tchau\", \"Até logo\" ou \"Até mais\".</li>\n</ul>",
+  "items": [
+    {
+      "en": "Olá, como você está?",
+      "target": "Hello, how are you?",
+      "topics": [
+        "saudações",
+        "apresentações"
+      ],
+      "explanation_pt": "Uma saudação comum para perguntar sobre o bem-estar."
+    },
+    {
+      "en": "Prazer em conhecê-lo.",
+      "target": "Nice to meet you.",
+      "topics": [
+        "apresentações",
+        "cortesia"
+      ],
+      "explanation_pt": "Usado ao encontrar alguém pela primeira vez."
+    },
+    {
+      "en": "Bom dia! Tudo bem?",
+      "target": "Good morning! Is everything okay?",
+      "topics": [
+        "saudações",
+        "manhã"
+      ],
+      "explanation_pt": "Uma saudação matinal que demonstra preocupação."
+    },
+    {
+      "en": "Como foi seu dia?",
+      "target": "How was your day?",
+      "topics": [
+        "conversa",
+        "interesse"
+      ],
+      "explanation_pt": "Pergunta sobre o dia de alguém para iniciar uma conversa."
+    },
+    {
+      "en": "Você se lembra de mim?",
+      "target": "Do you remember me?",
+      "topics": [
+        "apresentações",
+        "memória"
+      ],
+      "explanation_pt": "Usado para relembrar alguém que já foi conhecido."
+    },
+    {
+      "en": "Eu sou novo aqui.",
+      "target": "I am new here.",
+      "topics": [
+        "apresentações",
+        "novidade"
+      ],
+      "explanation_pt": "Uma forma de se apresentar em um novo ambiente."
+    },
+    {
+      "en": "Como você se chama?",
+      "target": "What is your name?",
+      "topics": [
+        "apresentações",
+        "perguntas"
+      ],
+      "explanation_pt": "Pergunta comum para saber o nome de alguém."
+    },
+    {
+      "en": "Até logo, nos vemos depois.",
+      "target": "See you later, we'll meet again.",
+      "topics": [
+        "despedidas",
+        "futuro"
+      ],
+      "explanation_pt": "Uma forma de se despedir com a expectativa de um reencontro."
+    },
+    {
+      "en": "Você está ocupado agora?",
+      "target": "Are you busy right now?",
+      "topics": [
+        "conversa",
+        "interesse"
+      ],
+      "explanation_pt": "Pergunta para saber se alguém tem tempo para conversar."
+    },
+    {
+      "en": "Espero que você tenha um bom dia.",
+      "target": "I hope you have a good day.",
+      "topics": [
+        "saudações",
+        "cortesia"
+      ],
+      "explanation_pt": "Uma forma amigável de desejar um bom dia a alguém."
+    }
+  ]
+}
