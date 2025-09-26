@@ -1,0 +1,88 @@
+{
+  "theme": "Saudações e apresentações",
+  "lesson_html": "<ul>\n    <li><strong>Olá!</strong> - Uma forma comum de cumprimentar alguém.</li>\n    <li><strong>Como você se chama?</strong> - Pergunta usada para saber o nome da outra pessoa.</li>\n    <li><strong>Meu nome é...</strong> - Resposta para apresentar-se.</li>\n    <li><strong>Prazer em conhecê-lo!</strong> - Usado para expressar satisfação ao conhecer alguém.</li>\n    <li><strong>Como você está?</strong> - Pergunta para saber sobre o bem-estar da pessoa.</li>\n</ul>",
+  "items": [
+    {
+      "en": "Olá, como você está?",
+      "target": "Hello, how are you?",
+      "topics": [
+        "saudações",
+        "apresentações"
+      ],
+      "explanation_pt": "Uma saudação comum para perguntar sobre o bem-estar."
+    },
+    {
+      "en": "Meu nome é Maria.",
+      "target": "My name is Maria.",
+      "topics": [
+        "apresentações"
+      ],
+      "explanation_pt": "Usado para se apresentar a alguém."
+    },
+    {
+      "en": "Prazer em conhecê-lo.",
+      "target": "Nice to meet you.",
+      "topics": [
+        "saudações",
+        "apresentações"
+      ],
+      "explanation_pt": "Uma expressão usada ao conhecer alguém pela primeira vez."
+    },
+    {
+      "en": "Você vem sempre aqui?",
+      "target": "Do you come here often?",
+      "topics": [
+        "saudações"
+      ],
+      "explanation_pt": "Uma pergunta comum para iniciar uma conversa."
+    },
+    {
+      "en": "Estou bem, obrigado.",
+      "target": "I am fine, thank you.",
+      "topics": [
+        "saudações"
+      ],
+      "explanation_pt": "Uma resposta típica a uma pergunta sobre o bem-estar."
+    },
+    {
+      "en": "Qual é o seu nome?",
+      "target": "What is your name?",
+      "topics": [
+        "apresentações"
+      ],
+      "explanation_pt": "Usado para perguntar o nome de alguém."
+    },
+    {
+      "en": "Como foi seu dia?",
+      "target": "How was your day?",
+      "topics": [
+        "saudações"
+      ],
+      "explanation_pt": "Uma pergunta para saber sobre o dia de alguém."
+    },
+    {
+      "en": "Eu sou de São Paulo.",
+      "target": "I am from São Paulo.",
+      "topics": [
+        "apresentações"
+      ],
+      "explanation_pt": "Usado para informar de onde você é."
+    },
+    {
+      "en": "Nos vemos amanhã.",
+      "target": "See you tomorrow.",
+      "topics": [
+        "saudações"
+      ],
+      "explanation_pt": "Uma despedida que indica um encontro futuro."
+    },
+    {
+      "en": "Você está ocupado agora?",
+      "target": "Are you busy now?",
+      "topics": [
+        "saudações"
+      ],
+      "explanation_pt": "Uma pergunta para saber se alguém tem tempo livre."
+    }
+  ]
+}
