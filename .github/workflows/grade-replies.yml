@@ -1,95 +1,95 @@
-# .github/workflows/grade-replies.yml
-name: Grade Replies
+# # .github/workflows/grade-replies.yml
+# name: Grade Replies
 
-on:
-  schedule:
-    - cron: "*/10 * * * *"
-  workflow_dispatch:
+# on:
+#   schedule:
+#     - cron: "*/10 * * * *"
+#   workflow_dispatch:
 
-permissions:
-  contents: write  # allow pushes with GITHUB_TOKEN
+# permissions:
+#   contents: write  # allow pushes with GITHUB_TOKEN
 
-concurrency:
-  group: grade-replies-${{ github.ref }}
-  cancel-in-progress: true
+# concurrency:
+#   group: grade-replies-${{ github.ref }}
+#   cancel-in-progress: true
 
-jobs:
-  grade_and_commit:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repo (with push token)
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
+# jobs:
+#   grade_and_commit:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout repo (with push token)
+#         uses: actions/checkout@v4
+#         with:
+#           fetch-depth: 0
+#           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
+#       - name: Setup Python
+#         uses: actions/setup-python@v5
+#         with:
+#           python-version: "3.11"
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+#       - name: Install dependencies
+#         run: pip install -r requirements.txt
 
-      - name: Grade ES replies
-        run: python quiz_email.py --mode answers --lang es
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          SMTP_HOST: smtp.gmail.com
-          SMTP_PORT: 587
-          SMTP_USER: ${{ secrets.SMTP_USER }}
-          SMTP_PASS: ${{ secrets.SMTP_PASS }}
-          IMAP_HOST: imap.gmail.com
-          IMAP_PORT: 993
-          IMAP_USER: ${{ secrets.IMAP_USER }}
-          IMAP_PASS: ${{ secrets.IMAP_PASS }}
-          ES_RECIPIENTS: ${{ secrets.ES_RECIPIENTS }}
+#       - name: Grade ES replies
+#         run: python quiz_email.py --mode answers --lang es
+#         env:
+#           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+#           SMTP_HOST: smtp.gmail.com
+#           SMTP_PORT: 587
+#           SMTP_USER: ${{ secrets.SMTP_USER }}
+#           SMTP_PASS: ${{ secrets.SMTP_PASS }}
+#           IMAP_HOST: imap.gmail.com
+#           IMAP_PORT: 993
+#           IMAP_USER: ${{ secrets.IMAP_USER }}
+#           IMAP_PASS: ${{ secrets.IMAP_PASS }}
+#           ES_RECIPIENTS: ${{ secrets.ES_RECIPIENTS }}
 
-      - name: Grade PT replies
-        run: python quiz_email.py --mode answers --lang pt
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          SMTP_HOST: smtp.gmail.com
-          SMTP_PORT: 587
-          SMTP_USER: ${{ secrets.SMTP_USER }}
-          SMTP_PASS: ${{ secrets.SMTP_PASS }}
-          IMAP_HOST: imap.gmail.com
-          IMAP_PORT: 993
-          IMAP_USER: ${{ secrets.IMAP_USER }}
-          IMAP_PASS: ${{ secrets.IMAP_PASS }}
-          PT_RECIPIENTS: ${{ secrets.PT_RECIPIENTS }}
+#       - name: Grade PT replies
+#         run: python quiz_email.py --mode answers --lang pt
+#         env:
+#           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+#           SMTP_HOST: smtp.gmail.com
+#           SMTP_PORT: 587
+#           SMTP_USER: ${{ secrets.SMTP_USER }}
+#           SMTP_PASS: ${{ secrets.SMTP_PASS }}
+#           IMAP_HOST: imap.gmail.com
+#           IMAP_PORT: 993
+#           IMAP_USER: ${{ secrets.IMAP_USER }}
+#           IMAP_PASS: ${{ secrets.IMAP_PASS }}
+#           PT_RECIPIENTS: ${{ secrets.PT_RECIPIENTS }}
 
-      - name: Commit & push data changes (rebase-safe with retries)
-        shell: bash
-        run: |
-          set -e
-          BRANCH="${GITHUB_REF_NAME}"
+#       - name: Commit & push data changes (rebase-safe with retries)
+#         shell: bash
+#         run: |
+#           set -e
+#           BRANCH="${GITHUB_REF_NAME}"
 
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+#           git config user.name "github-actions[bot]"
+#           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git fetch origin "$BRANCH"
-          git checkout "$BRANCH"
+#           git fetch origin "$BRANCH"
+#           git checkout "$BRANCH"
 
-          git add data/ || true
+#           git add data/ || true
 
-          if git commit -m "Update quiz data (es, pt) [skip ci]"; then
-            echo "Committed changes, preparing to push..."
-          else
-            echo "No changes to commit."
-            exit 0
-          fi
+#           if git commit -m "Update quiz data (es, pt) [skip ci]"; then
+#             echo "Committed changes, preparing to push..."
+#           else
+#             echo "No changes to commit."
+#             exit 0
+#           fi
 
-          # Rebase & retry push up to 3 times
-          for i in 1 2 3; do
-            git pull --rebase --autostash origin "$BRANCH" || true
-            if git push origin "$BRANCH"; then
-              echo "Pushed on attempt $i"
-              exit 0
-            fi
-            echo "Push failed (attempt $i). Retrying…"
-            sleep 2
-          done
+#           # Rebase & retry push up to 3 times
+#           for i in 1 2 3; do
+#             git pull --rebase --autostash origin "$BRANCH" || true
+#             if git push origin "$BRANCH"; then
+#               echo "Pushed on attempt $i"
+#               exit 0
+#             fi
+#             echo "Push failed (attempt $i). Retrying…"
+#             sleep 2
+#           done
 
-          echo "Failed to push after retries."
-          exit 1
+#           echo "Failed to push after retries."
+#           exit 1
